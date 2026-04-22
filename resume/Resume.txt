@@ -1,0 +1,84 @@
+Zhihao Hu
+Phone number: 765-421-5826 | Email: zhihaohu921113@gmail.com | Address: NE 87th Street, Kirkland, WA, US
+
+PROFESSIONAL SUMMARY
+Backend engineer with 10+ years of experience building and leading large-scale ranking, content serving, and e-commerce platform systems in close partnership with ML teams at Snap, ByteDance, and Google.
+
+SKILLS
+Languages: Go, Java, Python
+Systems & Infrastructure: Distributed System Design, Microservices, Kubernetes, Cloud Infrastructure, gRPC, Protobuf, Service Mesh, System/Traffic Migration
+Databases & Storage: Bigtable, RocksDB, RDS, Key-Value Stores, Valkey/Redis, In-memory Caching
+ML & Ranking: ML Serving & Feature Pipelines, Ranking Systems, A/B Testing & Experimentation, Training Data Pipelines
+Tools & Practices: AI-assisted Development, Monitoring & Observability, CI/CD
+
+WORK EXPERIENCE
+
+Snap
+Senior Software Engineer | Content Ranking                                                    Nov 2024 – April 2026
+
+Tech lead on the team that owns the entire backend serving **Discover** and **Spotlight** feeds to **400M+ DAU**, contributing ~40% of Snapchat's total view time and over 25% of ads revenue. Services built on **Kubernetes** with **Bigtable** for story metadata, **RocksDB**-backed feature stores, and **Valkey/in-memory caching** for low-latency serving.
+
+* Led backend development for integrating **Spotlight** (short-form video) into the **Discover feed** as a company-wide strategic initiative to diversify content and increase creator engagement; built **tile hydration**, ensured correct feature sourcing and **training data logging**, and enforced tile-level marketplace controls
+
+* Partnered cross-functionally with **Ads, Client, PM, and MLE** to launch a **5% A/B experiment** for Spotlight in Discover, resulting in a **20% week-over-week** increase in view time
+
+* Led the re-architecture of a tech-debt-heavy ranking system into a unified **ML + rule-based framework**; directed cross-functional development (1 BE, 1 MLE) to deliver a **scalable**, extensible backend powering multiple feed surfaces
+
+* Delivered **$120K/day cost savings (~$40M annually)** by partnering with MLEs to identify inefficiencies in ranking services, optimizing **feature pipelines**, and improving **caching strategies**
+
+* Co-led a team of **8 engineers** during high-traffic events (**TikTok shutdown, New Year's Eve**), coordinating incident response across all feed surfaces to ensure **99.5% global availability**
+
+* Improved observability of the ranking platform by building **monitoring dashboards** and **alerting**, reducing time to detect performance regressions and engagement anomalies
+
+ByteDance
+Senior Software Engineer | Global E-commerce                                                  Feb 2023 – Nov 2024
+
+Creator Growth Center
+Platform enabling **20M+ TikTok creators** to monetize through e-commerce commissions. Backend services on **Kubernetes** with **ByteDance RDS** and **key-value stores** for user profiles and campaign metadata.
+
+* Defined and led the re-architecture of the **Growth Center backend** from a rigid legacy system to a scalable platform spanning **12 services** and **3 storage systems**; phased the migration starting with **campaign configuration**, then built a **user-side data transition module**, ran **dual read/write** for weeks to ensure **data consistency**, and completed full cutover with cleanup — new architecture enabled extensible **campaign formats** and **flexible reward types** integrated across multiple internal platforms
+
+* Scaled and led the backend team from **4 to 12 engineers**, mentoring junior engineers and driving execution across multiple workstreams; conducted **100+ interviews**, personally selected every team member, and coached engineers to **senior-level promotions**
+
+* As tech lead, drove campaign **ROI from 0.4 to 2.1 (~5x improvement)** by evolving integration with the internal e-commerce ops platform, enabling operations teams to implement marketing strategies through **pre-defined campaign models via UI**, eliminating the need for code changes and automating campaign launches
+
+* Introduced **budget and risk controls** into the task and reward system to reduce fraud and improve budget efficiency
+
+* Led and landed the **organization-wide EU GDPR-required** project to keep EU data safe in **isolated data center**
+
+Rippling
+Senior Software Engineer | Identity                                                           Mar 2022 – Feb 2023
+
+Configurable SSO with Rippling
+Enterprise identity platform enabling **SAML-based SSO** for thousands of Rippling customers.
+
+* Redesigned the **SAML attributes data model** for flexibility and migrated hard-coded attributes to the new model, enabling custom app SSO integrations
+
+* **Decoupled** the **identity service** from the Rippling **monolith**, designing the service boundary and leading the implementation and rollout
+
+Google
+Software Development Engineer III | Social Frontend                                            Jul 2019 – Nov 2021
+
+Social frontend backend migration
+Backend service powering **Google Currents** and integrated into **Gmail Hub**.
+
+* Led the design and implementation of the **feature subscription service** and APIs using Google's internal platform registration, ensuring seamless user onboarding to **Currents** within **Gmail Hub**
+
+* Designed and executed **service migration** plans to move post data from legacy platform to new platform, enabling **retention policy compliance** and improving data governance across the service
+
+* Replaced a complex legacy **content rendering service** with a lightweight solution aggregating data from multiple sources, reducing serving complexity and improving maintainability
+
+Amazon
+Software Development Engineer II | Device Planning                                            Sep 2015 – Apr 2019
+
+Demand planning and in-stock solver
+Backend systems powering **inventory forecasting and allocation** for Amazon's hardware device portfolio.
+
+* Collaborated with instock managers to gather requirements, designed and implemented a **constraint-based optimization engine** service using Java for inventory allocation; built one of the most heavily used services in the device planning org, reduced the non-holiday season **"Out of Stock" rate to 1%** and reduced manual work of device supply managers by **60%**
+
+* Collaborated with **applied scientists** to gather **DSI (downstream impact)** calculation formulas, forecasting models, and output data formats
+
+* Designed and implemented a tool to generate data for the Economics team to evaluate the **value added of different devices**
+
+EDUCATION
+Purdue University, West Lafayette, IN (Graduated: 2015)  B.S. in Computer Science and B.S. in Mathematics
