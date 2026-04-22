@@ -1,4 +1,4 @@
-# Coding Practice Checklist (代码随想录)
+# Coding Practice Checklist (代码随想录 + Staff-Level Supplements)
 
 ---
 
@@ -6,11 +6,23 @@
 
 **Key Concepts:** Contiguous memory, index-based access, in-place operations, prefix sums, sliding window, binary search.
 
-### Binary Search (left/right boundary variants)
+### Binary Search — textbook (left/right boundary variants)
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [ ] | Binary Search | [704](https://leetcode.com/problems/binary-search/) | [📖](https://programmercarl.com/0704.二分查找.html) |
+
+### Binary Search on Answer Space — predicate over a monotonic range
+
+> **Key idea:** When you can define a monotone predicate `feasible(x)` (e.g., "can we do it with capacity x?"), binary search the answer directly instead of the array. Template: `lo, hi = min_ans, max_ans; while lo < hi: mid = (lo+hi)//2; lo = mid+1 if feasible(mid) else hi = mid`.
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Sqrt(x) | [69](https://leetcode.com/problems/sqrtx/) | — |
+| [ ] | Koko Eating Bananas | [875](https://leetcode.com/problems/koko-eating-bananas/) | — |
+| [ ] | Capacity to Ship Packages Within D Days | [1011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | — |
+| [ ] | Split Array Largest Sum | [410](https://leetcode.com/problems/split-array-largest-sum/) | — |
+| [ ] | Find Peak Element | [162](https://leetcode.com/problems/find-peak-element/) | — |
 
 ### Two Pointers — in-place removal / sorted merge
 
@@ -18,6 +30,17 @@
 |------|---------|-----|--------|
 | [ ] | Remove Element | [27](https://leetcode.com/problems/remove-element/) | [📖](https://programmercarl.com/0027.移除元素.html) |
 | [ ] | Squares of a Sorted Array | [977](https://leetcode.com/problems/squares-of-a-sorted-array/) | [📖](https://programmercarl.com/0977.有序数组的平方.html) |
+
+### Prefix Sum — range query in O(1) after O(n) build
+
+> **Key idea:** `prefix[i] = prefix[i-1] + nums[i-1]`. Range sum `[l, r]` = `prefix[r+1] - prefix[l]`. Combine with a hash map to find subarrays with a target sum in O(n): store `prefix → count` and look up `prefix[i] - target`.
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Range Sum Query — Immutable | [303](https://leetcode.com/problems/range-sum-query-immutable/) | — |
+| [ ] | Product of Array Except Self | [238](https://leetcode.com/problems/product-of-array-except-self/) | — |
+| [ ] | Subarray Sum Equals K | [560](https://leetcode.com/problems/subarray-sum-equals-k/) | — |
+| [ ] | Subarray Sums Divisible by K | [974](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | — |
 
 ### Sliding Window — minimum/maximum subarray
 
@@ -121,11 +144,23 @@
 
 ---
 
-## 5. Two Pointers
+## 5. Two Pointers & Sliding Window
 
-**Key Concepts:** Reduces O(n²) brute force to O(n); works on sorted arrays and linked lists.
+**Key Concepts:** Two pointers reduce O(n²) brute force to O(n). Sliding window maintains a valid substructure under a shrink-or-expand constraint. [随想录 双指针总结](https://programmercarl.com/双指针总结.html)
 
-> Cross-cutting pattern — problems live in Arrays, Strings, Linked Lists, and Hash Tables sections above. [随想录 双指针总结](https://programmercarl.com/双指针总结.html)
+> Two-pointer problems are distributed across Arrays, Strings, Linked Lists, and Hash Tables above. This section focuses on the **variable-size sliding window** pattern as its own first-class topic.
+
+### Sliding Window — longest/shortest substring under a constraint
+
+> **Key idea:** Expand `right` to include new chars; shrink `left` when the window violates the constraint. Track the window state in a hash map or counter. O(n) because each element enters and exits the window once.
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Longest Substring Without Repeating Characters | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | — |
+| [ ] | Permutation in String | [567](https://leetcode.com/problems/permutation-in-string/) | — |
+| [ ] | Find All Anagrams in a String | [438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | — |
+| [ ] | Longest Repeating Character Replacement | [424](https://leetcode.com/problems/longest-repeating-character-replacement/) | — |
+| [ ] | Minimum Window Substring | [76](https://leetcode.com/problems/minimum-window-substring/) | — |
 
 | Pattern | Representative Problems |
 |---------|------------------------|
@@ -165,11 +200,19 @@
 |------|---------|-----|--------|
 | [ ] | Sliding Window Maximum | [239](https://leetcode.com/problems/sliding-window-maximum/) | [📖](https://programmercarl.com/0239.滑动窗口最大值.html) |
 
-### Heap / Priority Queue — top-K frequency
+### Heap / Priority Queue — top-K and streaming median
+
+> **Key idea:** A min-heap of size K answers "K largest" queries in O(n log K). Two heaps (max-heap of lower half + min-heap of upper half, kept balanced) give streaming median in O(log n) per insert.
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [ ] | Top K Frequent Elements | [347](https://leetcode.com/problems/top-k-frequent-elements/) | [📖](https://programmercarl.com/0347.前K个高频元素.html) |
+| [ ] | Last Stone Weight | [1046](https://leetcode.com/problems/last-stone-weight/) | — |
+| [ ] | Kth Largest Element in an Array | [215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | — |
+| [ ] | Merge K Sorted Lists | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | — |
+| [ ] | Find Median from Data Stream | [295](https://leetcode.com/problems/find-median-from-data-stream/) | — |
+| [ ] | Kth Smallest Element in Sorted Matrix | [378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | — |
+| [ ] | Task Scheduler | [621](https://leetcode.com/problems/task-scheduler/) | — |
 
 ---
 
@@ -438,6 +481,16 @@
 | [ ] | Palindromic Substrings | [647](https://leetcode.com/problems/palindromic-substrings/) | [📖](https://programmercarl.com/0647.回文子串.html) |
 | [ ] | Longest Palindromic Subsequence | [516](https://leetcode.com/problems/longest-palindromic-subsequence/) | [📖](https://programmercarl.com/0516.最长回文子序列.html) |
 
+### Interval DP — optimize over all ways to split a subarray
+
+> **Key idea:** `dp[i][j]` = optimal answer for the subarray/subproblem `[i..j]`. Enumerate split point `k` in a third loop. Build solutions from small intervals up to the full range. Order: length 1 → length 2 → … → length n.
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Burst Balloons | [312](https://leetcode.com/problems/burst-balloons/) | — |
+| [ ] | Minimum Insertion Steps to Make a String Palindrome | [1312](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | — |
+| [ ] | Strange Printer | [664](https://leetcode.com/problems/strange-printer/) | — |
+
 ---
 
 ## 11. Monotonic Stack
@@ -484,6 +537,24 @@
 | [ ] | Pacific Atlantic Water Flow | [417](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [📖](https://programmercarl.com/0417.太平洋大西洋水流问题.html) |
 | [ ] | Surrounded Regions | [130](https://leetcode.com/problems/surrounded-regions/) | [📖](https://programmercarl.com/0130.被围绕的区域.html) |
 
+### Multi-Source BFS — simultaneous wavefront expansion
+
+> **Key idea:** Seed the queue with *all* starting nodes at once (layer 0). BFS naturally computes shortest distance from the nearest source to every reachable cell. Used for "rotting spreads", "distance to nearest 0", etc.
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Rotting Oranges | [994](https://leetcode.com/problems/rotting-oranges/) | — |
+| [ ] | 01 Matrix | [542](https://leetcode.com/problems/01-matrix/) | — |
+
+### BFS on Implicit Graph — state as node, transitions as edges
+
+> **Key idea:** Each unique state (string, tuple, board) is a graph node. BFS finds the minimum number of transformations. Use a `visited` set to avoid re-enqueuing. Common at Google and Amazon.
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Word Ladder | [127](https://leetcode.com/problems/word-ladder/) | — |
+| [ ] | Minimum Genetic Mutation | [433](https://leetcode.com/problems/minimum-genetic-mutation/) | — |
+
 ### DFS on DAG — enumerate all paths
 
 | Done | Problem | LC | 随想录 |
@@ -514,13 +585,171 @@
 
 ---
 
+## 13. Trie (Prefix Tree)
+
+**Key Concepts:** Each node stores one character; edges spell out strings. `insert` and `search` are O(L) where L = word length. Two node flags needed: `is_end` (marks a complete word) and children array/map.
+
+> Not covered by 代码随想录. Build the `TrieNode` class first, then implement `insert / search / startsWith` — every other trie problem reuses this skeleton.
+
+### Trie Implementation + Prefix Search
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Implement Trie (Prefix Tree) | [208](https://leetcode.com/problems/implement-trie-prefix-tree/) | — |
+| [ ] | Design Add and Search Words Data Structure | [211](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | — |
+| [ ] | Replace Words | [648](https://leetcode.com/problems/replace-words/) | — |
+
+### Trie + Backtracking — prune search space with prefix check
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Word Search II | [212](https://leetcode.com/problems/word-search-ii/) | — |
+
+---
+
+## 14. Bit Manipulation
+
+**Key Concepts:** Operate directly on binary representations for O(1) tricks. Core idioms: `n & (n-1)` clears lowest set bit, `n & (-n)` isolates lowest set bit, `a ^ a = 0` cancels duplicates, `a ^ 0 = a` preserves value.
+
+> Not covered by 代码随想录. These problems are short to code but require knowing the idiom cold — drill them as flash cards.
+
+### XOR — duplicate cancellation
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Single Number | [136](https://leetcode.com/problems/single-number/) | — |
+| [ ] | Single Number II (bit counting mod 3) | [137](https://leetcode.com/problems/single-number-ii/) | — |
+| [ ] | Missing Number | [268](https://leetcode.com/problems/missing-number/) | — |
+
+### Bit Counting
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Number of 1 Bits | [191](https://leetcode.com/problems/number-of-1-bits/) | — |
+| [ ] | Counting Bits | [338](https://leetcode.com/problems/counting-bits/) | — |
+| [ ] | Reverse Bits | [190](https://leetcode.com/problems/reverse-bits/) | — |
+
+### Bit Arithmetic — simulate operations without operators
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Sum of Two Integers (no `+`) | [371](https://leetcode.com/problems/sum-of-two-integers/) | — |
+
+---
+
+## 15. Intervals
+
+**Key Concepts:** Sort by start time for most problems. For minimum rooms / maximum overlap: use a min-heap tracking end times, or a sweep-line difference array. Insert interval requires finding the merge zone by comparing start/end with existing entries.
+
+> Partially covered by 代码随想录 under Greedy (merge/non-overlapping). The problems below focus on the **insertion** and **scheduling** variants that appear frequently at Amazon and Google.
+
+### Insert / Overlap — merge a new interval into a sorted list
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Insert Interval | [57](https://leetcode.com/problems/insert-interval/) | — |
+| [ ] | Interval List Intersections | [986](https://leetcode.com/problems/interval-list-intersections/) | — |
+
+### Scheduling — minimum resources / maximum concurrent events
+
+> **Key idea (Meeting Rooms II):** Sort by start time; maintain a min-heap of end times. If the earliest-ending meeting is done before the next one starts, reuse that room — else add a new room.
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Meeting Rooms II | [253](https://leetcode.com/problems/meeting-rooms-ii/) | — |
+| [ ] | Minimum Number of Platforms Required | [LC variant](https://leetcode.com/problems/minimum-number-of-platforms-required-for-a-railway-station/) | — |
+
+---
+
+## 16. Data Structure Design
+
+**Key Concepts:** Combine multiple base structures to hit all required complexities simultaneously. LRU = doubly-linked list (O(1) move-to-front) + hash map (O(1) lookup). LFU adds a frequency map and a per-frequency LRU list.
+
+> Not covered by 代码随想录. These problems are common at Meta and Databricks staff rounds — the interviewer cares about *which structures you combine and why*, not just the final code.
+
+### Classic Designs
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Min Stack | [155](https://leetcode.com/problems/min-stack/) | — |
+| [ ] | LRU Cache | [146](https://leetcode.com/problems/lru-cache/) | — |
+| [ ] | LFU Cache | [460](https://leetcode.com/problems/lfu-cache/) | — |
+| [ ] | Insert Delete GetRandom O(1) | [380](https://leetcode.com/problems/insert-delete-getrandom-o1/) | — |
+| [ ] | Find Median from Data Stream | [295](https://leetcode.com/problems/find-median-from-data-stream/) | — |
+| [ ] | All O`one Data Structure | [432](https://leetcode.com/problems/all-oone-data-structure/) | — |
+
+---
+
+## 17. Math
+
+**Key Concepts:** Fast exponentiation (O(log n) via repeated squaring), Sieve of Eratosthenes (O(n log log n) primes), modular arithmetic, integer overflow handling.
+
+> Not covered by 代码随想录. These rarely appear as the *main* topic but show up as sub-problems in harder questions — e.g., `pow` inside a crypto problem, or prime checking inside a combinatorics DP.
+
+### Fast Exponentiation — repeated squaring
+
+> `pow(x, n)`: if `n` is even → `pow(x*x, n/2)`; if odd → `x * pow(x, n-1)`. Handles negative `n` with `1/pow(x, -n)`.
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Pow(x, n) | [50](https://leetcode.com/problems/powx-n/) | — |
+
+### Sieve of Eratosthenes — enumerate primes up to n
+
+> Mark all multiples of each prime starting from p² as composite. Time O(n log log n), space O(n).
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Count Primes | [204](https://leetcode.com/problems/count-primes/) | — |
+
+### Integer / String Arithmetic
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Multiply Strings | [43](https://leetcode.com/problems/multiply-strings/) | — |
+| [ ] | Plus One | [66](https://leetcode.com/problems/plus-one/) | — |
+| [ ] | Reverse Integer | [7](https://leetcode.com/problems/reverse-integer/) | — |
+
+---
+
+## 18. Segment Tree / Fenwick Tree (Binary Indexed Tree)
+
+**Key Concepts:** Both support point-update + range-query in O(log n). Fenwick Tree is simpler to code (BIT update: `i += i & (-i)`; query: `i -= i & (-i)`). Segment Tree is more flexible (supports range-update, range-min/max). Use when the naive prefix-sum approach breaks due to mutations.
+
+> Not covered by 代码随想录. Appears at Databricks and Google for problems requiring mutable range queries. Build Fenwick Tree from scratch in interview — it's ~10 lines.
+
+### Fenwick Tree (BIT) — mutable prefix sums
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | Range Sum Query — Mutable | [307](https://leetcode.com/problems/range-sum-query-mutable/) | — |
+| [ ] | Count of Smaller Numbers After Self | [315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | — |
+
+### Segment Tree — range queries with lazy propagation
+
+| Done | Problem | LC | 随想录 |
+|------|---------|-----|--------|
+| [ ] | My Calendar I | [729](https://leetcode.com/problems/my-calendar-i/) | — |
+| [ ] | My Calendar III (max overlap) | [732](https://leetcode.com/problems/my-calendar-iii/) | — |
+
+---
+
 ## Study Order
 
 ```
-Arrays → Linked Lists → Hash Tables → Strings
-       → Two Pointers (cross-cutting)
-→ Stacks & Queues → Binary Trees → Backtracking
-→ Greedy → Dynamic Programming → Monotonic Stack → Graph Theory
+Arrays (incl. Binary Search on Answer, Prefix Sum)
+→ Linked Lists → Hash Tables → Strings
+→ Two Pointers & Sliding Window
+→ Stacks & Queues (incl. Heap)
+→ Binary Trees → Backtracking
+→ Greedy (incl. Intervals) → Dynamic Programming (incl. Interval DP)
+→ Monotonic Stack → Trie
+→ Graph Theory (incl. Advanced BFS)
+→ Bit Manipulation → Data Structure Design
+→ Math → Segment Tree / Fenwick Tree
 ```
 
-> **Note:** DP is the heaviest section — budget extra time for the knapsack framework and subsequence problems. Binary Trees is the prerequisite for both Backtracking (recursive tree thinking) and Graph Theory (DFS/BFS).
+> **Priority tiers for staff-level target:**
+> - 🔴 **Must master:** Arrays, Sliding Window, Binary Search on Answer, Hash Tables, Trees, Backtracking, DP (knapsack + subsequence), Graph (BFS/DFS + topo), Heap, Trie, Data Structure Design
+> - 🟠 **High value:** Prefix Sum, Intervals, Monotonic Stack, Greedy, Bit Manipulation, Union-Find
+> - 🟡 **Differentiators at Google/Databricks:** Interval DP, Segment Tree / BIT, Math, Advanced BFS
