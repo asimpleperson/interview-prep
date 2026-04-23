@@ -4,7 +4,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| — *(role TBD)* | — | `Recruiter Screen` | Recruiter call · **2026-04-27 13:30** | — |
+| — *(role TBD)* | — | `Recruiter Screen` | Recruiter call · **2026-04-28 13:30** | Rescheduled from 4/27 |
 
 ---
 
@@ -24,13 +24,14 @@
 
 | Date | Event | Notes |
 |---|---|---|
-| 2026-04-27 13:30 | Recruiter call | Scheduled |
+| 2026-04-27 | Recruiter call rescheduled | Moved to 4/28 |
+| 2026-04-28 13:30 | Recruiter call | Scheduled |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
-| Recruiter Call | 2026-04-27 | 13:30 | Phone | — | Pending | — |
+| Recruiter Call | 2026-04-28 | 13:30 | Phone | — | Pending | Rescheduled from 4/27 |
 
 ---
 

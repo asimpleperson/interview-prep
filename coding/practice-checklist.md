@@ -119,7 +119,7 @@
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [x] | Three Sum | [15](https://leetcode.com/problems/3sum/) | [📖](https://programmercarl.com/0015.三数之和.html) |
-| [ ] | Four Sum | [18](https://leetcode.com/problems/4sum/) | [📖](https://programmercarl.com/0018.四数之和.html) |
+| [x] | Four Sum | [18](https://leetcode.com/problems/4sum/) | [📖](https://programmercarl.com/0018.四数之和.html) |
 
 ---
 
@@ -196,7 +196,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Valid Parentheses | [20](https://leetcode.com/problems/valid-parentheses/) | [📖](https://programmercarl.com/0020.有效的括号.html) |
+| [x] | Valid Parentheses | [20](https://leetcode.com/problems/valid-parentheses/) | [📖](https://programmercarl.com/0020.有效的括号.html) |
 | [ ] | Evaluate Reverse Polish Notation | [150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [📖](https://programmercarl.com/0150.逆波兰表达式求值.html) |
 
 ### Stack — adjacent duplicate removal
@@ -248,7 +248,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Binary Tree Level Order Traversal | [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [📖](https://programmercarl.com/0102.二叉树的层序遍历.html) |
+| [x] | Binary Tree Level Order Traversal | [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [📖](https://programmercarl.com/0102.二叉树的层序遍历.html) |
 
 ### DFS — tree properties (symmetry, depth, balance, paths)
 
@@ -326,7 +326,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Number of Islands | [200](https://leetcode.com/problems/number-of-islands/) | [📖](https://programmercarl.com/0200.岛屿数量.深搜版.html) |
+| [x] | Number of Islands | [200](https://leetcode.com/problems/number-of-islands/) | [📖](https://programmercarl.com/0200.岛屿数量.深搜版.html) |
 
 ### Reverse DFS / BFS — flood inward from the boundary
 
@@ -502,7 +502,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Climbing Stairs | [70](https://leetcode.com/problems/climbing-stairs/) | [📖](https://programmercarl.com/0070.爬楼梯.html) |
+| [x] | Climbing Stairs | [70](https://leetcode.com/problems/climbing-stairs/) | [📖](https://programmercarl.com/0070.爬楼梯.html) |
 | [ ] | House Robber | [198](https://leetcode.com/problems/house-robber/) | [📖](https://programmercarl.com/0198.打家劫舍.html) |
 | [ ] | House Robber II (circular array) | [213](https://leetcode.com/problems/house-robber-ii/) | [📖](https://programmercarl.com/0213.打家劫舍II.html) |
 
