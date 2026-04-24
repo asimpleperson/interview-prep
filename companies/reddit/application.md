@@ -4,7 +4,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Senior Software Engineer, GenAI Platform | — | `Recruiter Screen` | Recruiter call · scheduling in progress | Via referral |
+| Senior Software Engineer, GenAI Platform | — | `Recruiter Screen` | Recruiter call · **2026-04-27 10:30** | Via referral |
 
 ---
 
@@ -26,13 +26,13 @@
 | Date | Event | Notes |
 |---|---|---|
 | 2026-04-23 | Referred | Via referral |
-| 2026-04-23 | Recruiter call scheduling | In progress |
+| 2026-04-27 10:30 | Recruiter call | Scheduled |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
-| Recruiter Call | TBD | TBD | Phone | — | Pending | Scheduling in progress |
+| Recruiter Call | 2026-04-27 | 10:30 | Phone | — | Pending | — |
 
 ---
 

@@ -22,7 +22,7 @@
 | [TikTok](#tiktok) | 1 | `Tech Screen` · Round 1 on 2026-04-27 11:00 |
 | [Riot Games](#riot-games) | 1 | `Recruiter Screen` · Call on 2026-04-28 10:00 |
 | [Zocdoc](#zocdoc) | 1 | `Recruiter Screen` · Call on 2026-04-28 13:30 |
-| [Reddit](#reddit) | 1 | `Recruiter Screen` · Scheduling in progress |
+| [Reddit](#reddit) | 1 | `Recruiter Screen` · Call on 2026-04-27 10:30 |
 | [Glean](#glean) | 1 | `Tech Screen` · Round 1 on 2026-04-30 10:30 |
 | [Meta](#meta) | 1 | `Recruiter Screen` · in progress |
 | [Google](#google) | 1 active, 2 rejected | `Applied` |
@@ -136,7 +136,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Senior SWE, GenAI Platform | — | `Recruiter Screen` | Recruiter call · scheduling in progress | Via referral |
+| Senior SWE, GenAI Platform | — | `Recruiter Screen` | Recruiter call · **2026-04-27 10:30** | Via referral |
 
 ---
 

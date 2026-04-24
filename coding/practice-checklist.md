@@ -85,7 +85,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Reverse String | [344](https://leetcode.com/problems/reverse-string/) | [📖](https://programmercarl.com/0344.反转字符串.html) |
+| [x] | Reverse String | [344](https://leetcode.com/problems/reverse-string/) | [📖](https://programmercarl.com/0344.反转字符串.html) |
 | [ ] | Reverse Words in a String | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [📖](https://programmercarl.com/0151.翻转字符串里的单词.html) |
 
 ### KMP — O(n) pattern matching via prefix-failure table — [随想录 KMP理论](https://programmercarl.com/0028.实现strStr.html)
@@ -215,7 +215,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Daily Temperatures | [739](https://leetcode.com/problems/daily-temperatures/) | [📖](https://programmercarl.com/0739.每日温度.html) |
+| [x] | Daily Temperatures | [739](https://leetcode.com/problems/daily-temperatures/) | [📖](https://programmercarl.com/0739.每日温度.html) |
 | [ ] | Next Greater Element II (circular) | [503](https://leetcode.com/problems/next-greater-element-ii/) | [📖](https://programmercarl.com/0503.下一个更大元素II.html) |
 
 ### Monotonic Stack — bounded area (histogram / rain water)
@@ -254,7 +254,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Invert Binary Tree | [226](https://leetcode.com/problems/invert-binary-tree/) | [📖](https://programmercarl.com/0226.翻转二叉树.html) |
+| [x] | Invert Binary Tree | [226](https://leetcode.com/problems/invert-binary-tree/) | [📖](https://programmercarl.com/0226.翻转二叉树.html) |
 | [ ] | Symmetric Tree | [101](https://leetcode.com/problems/symmetric-tree/) | [📖](https://programmercarl.com/0101.对称二叉树.html) |
 | [ ] | Maximum Depth | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [📖](https://programmercarl.com/0104.二叉树的最大深度.html) |
 | [ ] | Balanced Binary Tree | [110](https://leetcode.com/problems/balanced-binary-tree/) | [📖](https://programmercarl.com/0110.平衡二叉树.html) |
@@ -283,7 +283,7 @@
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [ ] | Lowest Common Ancestor (BST) | [235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [📖](https://programmercarl.com/0235.二叉搜索树的最近公共祖先.html) |
-| [ ] | Validate BST | [98](https://leetcode.com/problems/validate-binary-search-tree/) | [📖](https://programmercarl.com/0098.验证二叉搜索树.html) |
+| [x] | Validate BST | [98](https://leetcode.com/problems/validate-binary-search-tree/) | [📖](https://programmercarl.com/0098.验证二叉搜索树.html) |
 
 ### Structural Modification — insert, delete, build
 
@@ -401,7 +401,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Combination Sum | [39](https://leetcode.com/problems/combination-sum/) | [📖](https://programmercarl.com/0039.组合总和.html) |
+| [x] | Combination Sum | [39](https://leetcode.com/problems/combination-sum/) | [📖](https://programmercarl.com/0039.组合总和.html) |
 
 ### Deduplication — sort + skip duplicate at same tree level
 
@@ -503,7 +503,7 @@
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [x] | Climbing Stairs | [70](https://leetcode.com/problems/climbing-stairs/) | [📖](https://programmercarl.com/0070.爬楼梯.html) |
-| [ ] | House Robber | [198](https://leetcode.com/problems/house-robber/) | [📖](https://programmercarl.com/0198.打家劫舍.html) |
+| [x] | House Robber | [198](https://leetcode.com/problems/house-robber/) | [📖](https://programmercarl.com/0198.打家劫舍.html) |
 | [ ] | House Robber II (circular array) | [213](https://leetcode.com/problems/house-robber-ii/) | [📖](https://programmercarl.com/0213.打家劫舍II.html) |
 
 ### 2D DP — grid path counting
