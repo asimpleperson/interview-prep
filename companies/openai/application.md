@@ -10,19 +10,19 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | — |
-| Status | `Researching` |
+| Status | `Recruiter Screen` |
 
 ## Timeline
 
 | Date | Event | Notes |
 |---|---|---|
-| — | — | — |
+| 2026-04-28 11:00 | Recruiter call | Bay Area role — relocation TBD |
 
 ## Interview Rounds
 
-| Round | Date | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|
-| — | — | — | — | — | — |
+| Round | Date | Time | Format | Interviewer | Result | Notes |
+|---|---|---|---|---|---|---|
+| Recruiter Call | 2026-04-28 | 11:00 | Phone | — | Pending | Bay Area role |
 
 ---
 

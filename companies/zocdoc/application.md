@@ -4,7 +4,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| — *(role TBD)* | — | `Recruiter Screen` | Recruiter call · **2026-04-28 13:30** | Rescheduled from 4/27 |
+| — *(role TBD)* | — | `Tech Screen` | Interview · **2026-05-08 11:15** | Recruiter screen completed |
 
 ---
 
@@ -18,20 +18,22 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | — |
-| Status | `Recruiter Screen` |
+| Status | `Tech Screen` |
 
 ## Timeline
 
 | Date | Event | Notes |
 |---|---|---|
 | 2026-04-27 | Recruiter call rescheduled | Moved to 4/28 |
-| 2026-04-28 13:30 | Recruiter call | Scheduled |
+| 2026-04-28 13:30 | Recruiter call | Completed |
+| 2026-05-08 11:15 | Interview | Scheduled |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
-| Recruiter Call | 2026-04-28 | 13:30 | Phone | — | Pending | Rescheduled from 4/27 |
+| Recruiter Call | 2026-04-28 | 13:30 | Phone | — | Passed | — |
+| Interview Round 1 | 2026-05-08 | 11:15 | — | — | Pending | — |
 
 ---
 

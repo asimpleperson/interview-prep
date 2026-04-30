@@ -19,12 +19,14 @@
 
 | Company | Active Roles | Status |
 |---|---|---|
-| [TikTok](#tiktok) | 1 | `Tech Screen` · Round 1 on 2026-04-27 11:00 |
-| [Riot Games](#riot-games) | 1 | `Recruiter Screen` · Call on 2026-04-28 10:00 |
-| [Zocdoc](#zocdoc) | 1 | `Recruiter Screen` · Call on 2026-04-28 13:30 |
-| [Reddit](#reddit) | 1 | `Recruiter Screen` · Call on 2026-04-27 10:30 |
+| [TikTok](#tiktok) | 1 | `Tech Screen` · Round 2 on 2026-04-30 14:00 |
+| [Riot Games](#riot-games) | 1 | `Recruiter Screen` · Availabilities submitted, awaiting scheduling |
+| [Zocdoc](#zocdoc) | 1 | `Tech Screen` · Interview on 2026-05-08 11:15 |
+| [Socure](#socure) | 1 | `Recruiter Screen` · Awaiting recruiter response |
+| [Reddit](#reddit) | 1 | `Recruiter Screen` · Awaiting recruiter response |
 | [Glean](#glean) | 1 | `Tech Screen` · Round 1 on 2026-04-30 10:30 |
-| [Meta](#meta) | 1 | `Recruiter Screen` · in progress |
+| [Meta](#meta) | 1 | `Recruiter Screen` · ⚠️ Follow up 2026-04-30 |
+| [OpenAI](#openai) | 1 | `Recruiter Screen` · Awaiting recruiter response |
 | [Google](#google) | 1 active, 2 rejected | `Applied` |
 | [Uber](#uber) | 2 active, 1 rejected | `Applied` |
 | [Databricks](#databricks) | 1 | `Applied` · via referral |
@@ -32,7 +34,6 @@
 | [Anthropic](#anthropic) | 2 | `Applied` |
 | [Amazon](#amazon) | — | `Researching` |
 | [Apple](#apple) | — | `Researching` |
-| [OpenAI](#openai) | — | `Researching` |
 
 ---
 
@@ -42,7 +43,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Tech Lead / Sr SWE — Monetization Technology | — | `Tech Screen` | Round 1 · **2026-04-27 11:00** | — |
+| Tech Lead / Sr SWE — Monetization Technology | — | `Tech Screen` | Round 2 · **2026-04-30 14:00** | Round 1 Passed |
 
 ---
 
@@ -52,7 +53,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| *(role TBD)* | — | `Recruiter Screen` | Recruiter call · **2026-04-28 13:30** | Rescheduled from 4/27 |
+| *(role TBD)* | — | `Tech Screen` | Interview · **2026-05-08 11:15** | Recruiter screen completed |
 
 ---
 
@@ -62,7 +63,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Principal Software Engineer | — | `Recruiter Screen` | Recruiter call · **2026-04-28 10:00** | — |
+| Principal Software Engineer | — | `Recruiter Screen` | Awaiting interview scheduling | Availabilities submitted 2026-04-28 |
 
 ---
 
@@ -82,7 +83,37 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Software Engineer, Infrastructure | — | `Recruiter Screen` | Recruiter conversation in progress | — |
+| Software Engineer, Infrastructure | — | `Recruiter Screen` | ⚠️ Follow up · **2026-04-30** | Recruiter conversation in progress |
+
+---
+
+## Socure
+
+[Application details](companies/socure/application.md) · [Company prep](companies/socure/CLAUDE.md)
+
+| Role | Account | Status | Next Step | Notes |
+|---|---|---|---|---|
+| TBD | — | `Recruiter Screen` | Awaiting recruiter response | Recruiter call done · moved forward |
+
+---
+
+## Startups
+
+[Application details](companies/startups/application.md) · [Notes](companies/startups/CLAUDE.md)
+
+| Recruiter | Stage | Role | Status | Next Step | Notes |
+|---|---|---|---|---|---|
+| *(no active unconfirmed opportunities)* | — | — | — | — | Micayla → graduated to [Socure](#socure) |
+
+---
+
+## Reddit
+
+[Application details](companies/reddit/application.md) · [Company prep](companies/reddit/CLAUDE.md)
+
+| Role | Account | Status | Next Step | Notes |
+|---|---|---|---|---|
+| Senior SWE, GenAI Platform | — | `Recruiter Screen` | Awaiting recruiter response | Recruiter call done · via referral |
 
 ---
 
@@ -130,16 +161,6 @@
 
 ---
 
-## Reddit
-
-[Application details](companies/reddit/application.md) · [Company prep](companies/reddit/CLAUDE.md)
-
-| Role | Account | Status | Next Step | Notes |
-|---|---|---|---|---|
-| Senior SWE, GenAI Platform | — | `Recruiter Screen` | Recruiter call · **2026-04-27 10:30** | Via referral |
-
----
-
 ## Anthropic
 
 [Application details](companies/anthropic/application.md) · [Company prep](companies/anthropic/CLAUDE.md)
@@ -148,6 +169,16 @@
 |---|---|---|---|---|
 | Research Engineer, Agents | — | `Applied` | Awaiting response | — |
 | Staff / Senior Software Engineer, Inference | — | `Applied` | Awaiting response | — |
+
+---
+
+## OpenAI
+
+[Application details](companies/openai/application.md) · [Company prep](companies/openai/CLAUDE.md)
+
+| Role | Account | Status | Next Step | Notes |
+|---|---|---|---|---|
+| Staff Software Engineer | — | `Recruiter Screen` | Awaiting recruiter response | Bay Area role — relocation TBD |
 
 ---
 
@@ -164,16 +195,6 @@
 ## Apple
 
 [Application details](companies/apple/application.md) · [Company prep](companies/apple/CLAUDE.md)
-
-| Role | Account | Status | Next Step | Notes |
-|---|---|---|---|---|
-| — | — | `Researching` | — | — |
-
----
-
-## OpenAI
-
-[Application details](companies/openai/application.md) · [Company prep](companies/openai/CLAUDE.md)
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|

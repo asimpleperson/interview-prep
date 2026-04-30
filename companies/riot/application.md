@@ -4,7 +4,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Principal Software Engineer | — | `Recruiter Screen` | Recruiter call · **2026-04-28 10:00** | — |
+| Principal Software Engineer | — | `Recruiter Screen` | Awaiting interview scheduling | Availabilities submitted 2026-04-28 |
 
 ---
 
@@ -24,13 +24,14 @@
 
 | Date | Event | Notes |
 |---|---|---|
-| 2026-04-28 10:00 | Recruiter call | Scheduled |
+| 2026-04-28 10:00 | Recruiter call | Completed |
+| 2026-04-28 | Availabilities submitted | Awaiting interview scheduling |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
-| Recruiter Call | 2026-04-28 | 10:00 | Phone | — | Pending | — |
+| Recruiter Call | 2026-04-28 | 10:00 | Phone | — | Passed | — |
 
 ---
 

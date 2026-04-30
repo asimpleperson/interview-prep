@@ -86,7 +86,7 @@
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [x] | Reverse String | [344](https://leetcode.com/problems/reverse-string/) | [📖](https://programmercarl.com/0344.反转字符串.html) |
-| [ ] | Reverse Words in a String | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [📖](https://programmercarl.com/0151.翻转字符串里的单词.html) |
+| [x] | Reverse Words in a String | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [📖](https://programmercarl.com/0151.翻转字符串里的单词.html) |
 
 ### KMP — O(n) pattern matching via prefix-failure table — [随想录 KMP理论](https://programmercarl.com/0028.实现strStr.html)
 
@@ -137,7 +137,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Longest Substring Without Repeating Characters | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | — |
+| [x] | Longest Substring Without Repeating Characters | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | — |
 | [ ] | Longest Repeating Character Replacement | [424](https://leetcode.com/problems/longest-repeating-character-replacement/) | — |
 
 ### Variable Window — shortest substring covering constraint
@@ -163,7 +163,7 @@
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [x] | Reverse Linked List | [206](https://leetcode.com/problems/reverse-linked-list/) | [📖](https://programmercarl.com/0206.翻转链表.html) |
-| [ ] | Swap Nodes in Pairs | [24](https://leetcode.com/problems/swap-nodes-in-pairs/) | [📖](https://programmercarl.com/0024.两两交换链表中的节点.html) |
+| [x] | Swap Nodes in Pairs | [24](https://leetcode.com/problems/swap-nodes-in-pairs/) | [📖](https://programmercarl.com/0024.两两交换链表中的节点.html) |
 
 ### Fast / Slow Pointers — nth-from-end & cycle detection
 
@@ -233,7 +233,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Top K Frequent Elements | [347](https://leetcode.com/problems/top-k-frequent-elements/) | [📖](https://programmercarl.com/0347.前K个高频元素.html) |
+| [x] | Top K Frequent Elements | [347](https://leetcode.com/problems/top-k-frequent-elements/) | [📖](https://programmercarl.com/0347.前K个高频元素.html) |
 | [ ] | Merge K Sorted Lists | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | — |
 
 ---
@@ -255,7 +255,7 @@
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [x] | Invert Binary Tree | [226](https://leetcode.com/problems/invert-binary-tree/) | [📖](https://programmercarl.com/0226.翻转二叉树.html) |
-| [ ] | Symmetric Tree | [101](https://leetcode.com/problems/symmetric-tree/) | [📖](https://programmercarl.com/0101.对称二叉树.html) |
+| [x] | Symmetric Tree | [101](https://leetcode.com/problems/symmetric-tree/) | [📖](https://programmercarl.com/0101.对称二叉树.html) |
 | [ ] | Maximum Depth | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [📖](https://programmercarl.com/0104.二叉树的最大深度.html) |
 | [ ] | Balanced Binary Tree | [110](https://leetcode.com/problems/balanced-binary-tree/) | [📖](https://programmercarl.com/0110.平衡二叉树.html) |
 | [ ] | Path Sum | [112](https://leetcode.com/problems/path-sum/) | [📖](https://programmercarl.com/0112.路径总和.html) |
@@ -379,7 +379,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Course Schedule | [207](https://leetcode.com/problems/course-schedule/) | [📖](https://programmercarl.com/0207.课程表.html) |
+| [x] | Course Schedule | [207](https://leetcode.com/problems/course-schedule/) | [📖](https://programmercarl.com/0207.课程表.html) |
 | [ ] | Course Schedule II | [210](https://leetcode.com/problems/course-schedule-ii/) | [📖](https://programmercarl.com/0210.课程表II.html) |
 
 ---
@@ -445,7 +445,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Maximum Subarray | [53](https://leetcode.com/problems/maximum-subarray/) | [📖](https://programmercarl.com/0053.最大子序和.html) |
+| [x] | Maximum Subarray | [53](https://leetcode.com/problems/maximum-subarray/) | [📖](https://programmercarl.com/0053.最大子序和.html) |
 | [ ] | Best Time to Buy and Sell Stock II | [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [📖](https://programmercarl.com/0122.买卖股票的最佳时机II.html) |
 | [ ] | Gas Station | [134](https://leetcode.com/problems/gas-station/) | [📖](https://programmercarl.com/0134.加油站.html) |
 
@@ -529,7 +529,7 @@
 |------|---------|-----|--------|
 | [ ] | Coin Change II | [518](https://leetcode.com/problems/coin-change-ii/) | [📖](https://programmercarl.com/0518.零钱兑换II.html) |
 | [ ] | Coin Change | [322](https://leetcode.com/problems/coin-change/) | [📖](https://programmercarl.com/0322.零钱兑换.html) |
-| [ ] | Word Break | [139](https://leetcode.com/problems/word-break/) | [📖](https://programmercarl.com/0139.单词拆分.html) |
+| [x] | Word Break | [139](https://leetcode.com/problems/word-break/) | [📖](https://programmercarl.com/0139.单词拆分.html) |
 
 ### Stock Trading — state machine DP (hold / not-hold transitions)
 
@@ -545,7 +545,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Longest Increasing Subsequence | [300](https://leetcode.com/problems/longest-increasing-subsequence/) | [📖](https://programmercarl.com/0300.最长上升子序列.html) |
+| [x] | Longest Increasing Subsequence | [300](https://leetcode.com/problems/longest-increasing-subsequence/) | [📖](https://programmercarl.com/0300.最长上升子序列.html) |
 
 ### Subsequence DP — 2D two-string comparison
 
@@ -583,7 +583,7 @@
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [ ] | Min Stack | [155](https://leetcode.com/problems/min-stack/) | — |
-| [ ] | LRU Cache | [146](https://leetcode.com/problems/lru-cache/) | — |
+| [x] | LRU Cache | [146](https://leetcode.com/problems/lru-cache/) | — |
 | [ ] | Find Median from Data Stream | [295](https://leetcode.com/problems/find-median-from-data-stream/) | — |
 | [ ] | Insert Delete GetRandom O(1) | [380](https://leetcode.com/problems/insert-delete-getrandom-o1/) | — |
 
