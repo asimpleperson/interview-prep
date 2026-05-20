@@ -6,15 +6,11 @@ import (
 	"strings"
 )
 
-// FormatCell converts a single Cell to its Life 1.06 line representation.
-// Example output: "2 3"
 func FormatCell(cell Cell) string {
 	return fmt.Sprintf("%d %d", cell.Position.X, cell.Position.Y)
 }
 
-// ParseCell parses a single Life 1.06 coordinate line into a Cell.
-// The line should contain exactly two space-separated integers (e.g. "2 3").
-// Returns the Cell with Alive set to true.
+// ParseCell parses a line like "2 3" into a Cell.
 func ParseCell(line string) (Cell, error) {
 	parts := strings.Fields(line)
 	if len(parts) != 2 {
@@ -31,6 +27,5 @@ func ParseCell(line string) (Cell, error) {
 		return Cell{}, fmt.Errorf("invalid y coordinate %q: %w", parts[1], err)
 	}
 
-	pos := Position{X: x, Y: y}
-	return Cell{Position: pos, Alive: true}, nil
+	return Cell{Position: Position{X: x, Y: y}, Alive: true}, nil
 }

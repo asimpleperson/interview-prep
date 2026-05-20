@@ -7,14 +7,11 @@ import (
 	"strings"
 )
 
-// Game is the controller for a Conway's Game of Life simulation.
-// It holds the current board state and tracks the generation number.
 type Game struct {
 	Board      map[Position]Cell
 	Generation int
 }
 
-// NewGame creates a Game by parsing live cells from a Life 1.06 input.
 func NewGame(scanner *bufio.Scanner) (*Game, error) {
 	board, err := parseBoard(scanner)
 	if err != nil {
@@ -23,39 +20,32 @@ func NewGame(scanner *bufio.Scanner) (*Game, error) {
 	return &Game{Board: board, Generation: 0}, nil
 }
 
-// Tick advances the simulation by one generation using Conway's rules:
-//   - A live cell with fewer than 2 or more than 3 alive neighbors dies.
-//   - A dead cell with exactly 3 alive neighbors becomes alive.
 func (g *Game) Tick() {
-	// Round 1: Build candidate cells with their live neighbor counts.
-	// Every position adjacent to a live cell becomes a candidate.
+	// count live neighbors for every cell adjacent to a live cell
 	candidates := make(map[Position]Cell, len(g.Board)*4)
 
 	for pos := range g.Board {
 		for _, off := range NeighborOffsets {
-			// Guard against int64 overflow at the boundaries.
-			neighborX, okX := safeAdd(pos.X, off.X)
-			neighborY, okY := safeAdd(pos.Y, off.Y)
+			nx, okX := safeAdd(pos.X, off.X)
+			ny, okY := safeAdd(pos.Y, off.Y)
 			if !okX || !okY {
 				continue
 			}
 
-			neighborPos := Position{X: neighborX, Y: neighborY}
-			cell, exists := candidates[neighborPos]
+			npos := Position{X: nx, Y: ny}
+			cell, exists := candidates[npos]
 			if !exists {
-				// Create a new dead candidate cell.
-				cell = Cell{Position: neighborPos, Alive: false, LiveNeighbors: 0}
-				// Carry forward alive status from current board.
-				if _, alive := g.Board[neighborPos]; alive {
+				cell = Cell{Position: npos, Alive: false, LiveNeighbors: 0}
+				if _, alive := g.Board[npos]; alive {
 					cell.Alive = true
 				}
 			}
 			cell.LiveNeighbors++
-			candidates[neighborPos] = cell
+			candidates[npos] = cell
 		}
 	}
 
-	// Round 2: Keep only cells that stay alive or become alive based on LiveNeighbors.
+	// apply rules: birth at 3, survival at 2 or 3
 	next := make(map[Position]Cell, len(g.Board))
 	for pos, cell := range candidates {
 		if cell.LiveNeighbors == 3 || (cell.LiveNeighbors == 2 && cell.Alive) {
@@ -68,19 +58,14 @@ func (g *Game) Tick() {
 	g.Generation++
 }
 
-// safeAdd returns a + b and true if the result fits in int64,
-// or 0 and false if the addition would overflow.
 func safeAdd(a, b int64) (int64, bool) {
-	result := a + b
-	// Overflow occurs when signs of a and b match but the result's sign differs.
-	if (b > 0 && result < a) || (b < 0 && result > a) {
+	r := a + b
+	if (b > 0 && r < a) || (b < 0 && r > a) {
 		return 0, false
 	}
-	return result, true
+	return r, true
 }
 
-// BoardStatusLife106 returns the current board state formatted in Life 1.06 format.
-// Output is sorted by position for deterministic results.
 func (g *Game) BoardStatusLife106() string {
 	positions := make([]Position, 0, len(g.Board))
 	for pos := range g.Board {
@@ -103,7 +88,6 @@ func (g *Game) BoardStatusLife106() string {
 	return sb.String()
 }
 
-// parseBoard reads a Life 1.06 formatted input and returns the set of live cells.
 func parseBoard(scanner *bufio.Scanner) (map[Position]Cell, error) {
 	board := make(map[Position]Cell)
 	lineNum := 0
@@ -112,10 +96,9 @@ func parseBoard(scanner *bufio.Scanner) (map[Position]Cell, error) {
 		line := strings.TrimSpace(scanner.Text())
 		lineNum++
 
-		// Strip UTF-8 BOM if present (common on Windows).
+		// handle BOM on windows
 		line = strings.TrimPrefix(line, "\xef\xbb\xbf")
 
-		// Skip header and blank lines.
 		if line == "" || strings.HasPrefix(line, "#") {
 			continue
 		}

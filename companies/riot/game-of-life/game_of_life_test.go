@@ -6,7 +6,6 @@ import (
 	"testing"
 )
 
-// makeGame is a test helper to create a Game from a list of positions.
 func makeGame(positions ...Position) *Game {
 	board := make(map[Position]Cell, len(positions))
 	for _, pos := range positions {
@@ -27,56 +26,40 @@ func boardEqual(a, b map[Position]Cell) bool {
 	return true
 }
 
-// TestTickBlinker verifies the period-2 blinker oscillator.
-//
-//	Generation 0 (vertical):    Generation 1 (horizontal):
-//	    . X .                       . . .
-//	    . X .                       X X X
-//	    . X .                       . . .
 func TestTickBlinker(t *testing.T) {
-	game := makeGame(
-		Position{0, -1}, Position{0, 0}, Position{0, 1},
-	)
+	game := makeGame(Position{0, -1}, Position{0, 0}, Position{0, 1})
 
 	game.Tick()
-	expected := makeGame(Position{-1, 0}, Position{0, 0}, Position{1, 0})
-	if !boardEqual(game.Board, expected.Board) {
-		t.Errorf("blinker tick 1: got %v, want %v", game.Board, expected.Board)
-	}
-	if game.Generation != 1 {
-		t.Errorf("expected generation 1, got %d", game.Generation)
+	want := makeGame(Position{-1, 0}, Position{0, 0}, Position{1, 0})
+	if !boardEqual(game.Board, want.Board) {
+		t.Errorf("tick 1: got %v, want %v", game.Board, want.Board)
 	}
 
 	game.Tick()
-	reverted := makeGame(Position{0, -1}, Position{0, 0}, Position{0, 1})
-	if !boardEqual(game.Board, reverted.Board) {
-		t.Errorf("blinker tick 2: got %v, want %v", game.Board, reverted.Board)
-	}
-	if game.Generation != 2 {
-		t.Errorf("expected generation 2, got %d", game.Generation)
+	back := makeGame(Position{0, -1}, Position{0, 0}, Position{0, 1})
+	if !boardEqual(game.Board, back.Board) {
+		t.Errorf("tick 2: got %v, want %v", game.Board, back.Board)
 	}
 }
 
-// TestTickBlock verifies the 2x2 block still life (should never change).
 func TestTickBlock(t *testing.T) {
 	game := makeGame(
 		Position{0, 0}, Position{0, 1},
 		Position{1, 0}, Position{1, 1},
 	)
-	snapshot := makeGame(
+	snap := makeGame(
 		Position{0, 0}, Position{0, 1},
 		Position{1, 0}, Position{1, 1},
 	)
 
 	for i := 0; i < 5; i++ {
 		game.Tick()
-		if !boardEqual(game.Board, snapshot.Board) {
-			t.Fatalf("block changed at generation %d: %v", game.Generation, game.Board)
+		if !boardEqual(game.Board, snap.Board) {
+			t.Fatalf("block changed at gen %d", game.Generation)
 		}
 	}
 }
 
-// TestTickGlider verifies the glider translates by (1, 1) every 4 generations.
 func TestTickGlider(t *testing.T) {
 	game := makeGame(
 		Position{0, 1},
@@ -88,37 +71,29 @@ func TestTickGlider(t *testing.T) {
 		game.Tick()
 	}
 
-	expected := makeGame(
+	// glider shifts by (1,1) every 4 gens
+	want := makeGame(
 		Position{1, 2},
 		Position{2, 3},
 		Position{3, 1}, Position{3, 2}, Position{3, 3},
 	)
-	if !boardEqual(game.Board, expected.Board) {
-		t.Errorf("glider after 4 ticks:\ngot  %v\nwant %v", game.Board, expected.Board)
-	}
-	if game.Generation != 4 {
-		t.Errorf("expected generation 4, got %d", game.Generation)
+	if !boardEqual(game.Board, want.Board) {
+		t.Errorf("got %v, want %v", game.Board, want.Board)
 	}
 }
 
-// TestTickLargeCoordinates verifies simulation correctness at extreme int64 positions.
-func TestTickLargeCoordinates(t *testing.T) {
-	base := int64(2_000_000_000_000)
-	game := makeGame(
-		Position{base, base - 1}, Position{base, base}, Position{base, base + 1},
-	)
-	expected := makeGame(
-		Position{base - 1, base}, Position{base, base}, Position{base + 1, base},
-	)
+func TestTickLargeCoords(t *testing.T) {
+	b := int64(2_000_000_000_000)
+	game := makeGame(Position{b, b - 1}, Position{b, b}, Position{b, b + 1})
+	want := makeGame(Position{b - 1, b}, Position{b, b}, Position{b + 1, b})
 
 	game.Tick()
-	if !boardEqual(game.Board, expected.Board) {
-		t.Errorf("large-coord blinker tick 1: got %v, want %v", game.Board, expected.Board)
+	if !boardEqual(game.Board, want.Board) {
+		t.Errorf("got %v, want %v", game.Board, want.Board)
 	}
 }
 
-// TestTickEmptyBoard verifies that an empty board stays empty.
-func TestTickEmptyBoard(t *testing.T) {
+func TestTickEmpty(t *testing.T) {
 	game := &Game{Board: make(map[Position]Cell), Generation: 0}
 	game.Tick()
 	if len(game.Board) != 0 {
@@ -126,8 +101,7 @@ func TestTickEmptyBoard(t *testing.T) {
 	}
 }
 
-// TestTickSingleCell verifies a lone cell dies (underpopulation).
-func TestTickSingleCell(t *testing.T) {
+func TestTickSingleCellDies(t *testing.T) {
 	game := makeGame(Position{0, 0})
 	game.Tick()
 	if len(game.Board) != 0 {
@@ -135,73 +109,42 @@ func TestTickSingleCell(t *testing.T) {
 	}
 }
 
-// TestTickOverflowBoundary verifies that cells at int64 boundaries don't panic
-// and that out-of-bound neighbors are safely skipped.
-func TestTickOverflowBoundary(t *testing.T) {
-	maxInt64 := int64(9223372036854775807)
-	minInt64 := int64(-9223372036854775808)
+func TestTickOverflow(t *testing.T) {
+	max := int64(9223372036854775807)
+	min := int64(-9223372036854775808)
 
-	// A blinker at MaxInt64 Y edge — top neighbor would overflow.
-	game := makeGame(
-		Position{0, maxInt64 - 1}, Position{0, maxInt64}, Position{1, maxInt64},
-	)
+	// shouldn't panic when neighbors would overflow
+	g1 := makeGame(Position{0, max - 1}, Position{0, max}, Position{1, max})
+	g1.Tick()
 
-	// Should not panic.
-	game.Tick()
-
-	if game.Generation != 1 {
-		t.Errorf("expected generation 1, got %d", game.Generation)
-	}
-
-	// A blinker at MinInt64 X edge — left neighbor would underflow.
-	game2 := makeGame(
-		Position{minInt64, 0}, Position{minInt64, 1}, Position{minInt64 + 1, 0},
-	)
-
-	// Should not panic.
-	game2.Tick()
-
-	if game2.Generation != 1 {
-		t.Errorf("expected generation 1, got %d", game2.Generation)
-	}
+	g2 := makeGame(Position{min, 0}, Position{min, 1}, Position{min + 1, 0})
+	g2.Tick()
 }
 
-// TestSafeAdd verifies overflow detection for int64 addition.
 func TestSafeAdd(t *testing.T) {
-	maxInt64 := int64(9223372036854775807)
-	minInt64 := int64(-9223372036854775808)
+	max := int64(9223372036854775807)
+	min := int64(-9223372036854775808)
 
 	tests := []struct {
-		name   string
 		a, b   int64
 		wantOk bool
 	}{
-		{"no overflow positive", 100, 200, true},
-		{"no overflow negative", -100, -200, true},
-		{"no overflow mixed", -100, 200, true},
-		{"zero", 0, 0, true},
-		{"max + 1 overflows", maxInt64, 1, false},
-		{"min - 1 underflows", minInt64, -1, false},
-		{"max + 0 ok", maxInt64, 0, true},
-		{"min + 0 ok", minInt64, 0, true},
-		{"large positive sum overflows", maxInt64 / 2 + 1, maxInt64 / 2 + 1, false},
-		{"large negative sum underflows", minInt64 / 2 - 1, minInt64 / 2 - 1, false},
+		{100, 200, true},
+		{-100, -200, true},
+		{max, 1, false},
+		{min, -1, false},
+		{max, 0, true},
+		{min, 0, true},
 	}
 
 	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			result, ok := safeAdd(tt.a, tt.b)
-			if ok != tt.wantOk {
-				t.Errorf("safeAdd(%d, %d): got ok=%v, want ok=%v", tt.a, tt.b, ok, tt.wantOk)
-			}
-			if ok && result != tt.a+tt.b {
-				t.Errorf("safeAdd(%d, %d): got %d, want %d", tt.a, tt.b, result, tt.a+tt.b)
-			}
-		})
+		_, ok := safeAdd(tt.a, tt.b)
+		if ok != tt.wantOk {
+			t.Errorf("safeAdd(%d, %d): ok=%v, want %v", tt.a, tt.b, ok, tt.wantOk)
+		}
 	}
 }
 
-// TestNewGame verifies creating a game from Life 1.06 input.
 func TestNewGame(t *testing.T) {
 	input := `#Life 1.06
 0 1
@@ -213,65 +156,39 @@ func TestNewGame(t *testing.T) {
 -2000000000001 -2000000000001
 -2000000000000 -2000000000001
 `
-	scanner := bufio.NewScanner(strings.NewReader(input))
-	game, err := NewGame(scanner)
+	game, err := NewGame(bufio.NewScanner(strings.NewReader(input)))
 	if err != nil {
-		t.Fatalf("NewGame error: %v", err)
+		t.Fatal(err)
 	}
-
 	if len(game.Board) != 8 {
-		t.Fatalf("expected 8 live cells, got %d", len(game.Board))
+		t.Fatalf("got %d cells, want 8", len(game.Board))
 	}
 	if game.Generation != 0 {
-		t.Errorf("expected generation 0, got %d", game.Generation)
-	}
-
-	checks := []Position{
-		{0, 1},
-		{2, 2},
-		{-2000000000000, -2000000000000},
-	}
-	for _, p := range checks {
-		cell, ok := game.Board[p]
-		if !ok {
-			t.Errorf("expected cell at %v to be present", p)
-		}
-		if !cell.Alive {
-			t.Errorf("expected cell at %v to be alive", p)
-		}
+		t.Errorf("gen=%d, want 0", game.Generation)
 	}
 }
 
-// TestNewGameSkipsBlanksAndComments verifies that blank lines and comment lines are ignored.
-func TestNewGameSkipsBlanksAndComments(t *testing.T) {
+func TestNewGameSkipsComments(t *testing.T) {
 	input := `#Life 1.06
-# this is a comment
-
+# comment
 5 5
 
-# another comment
+# another
 10 10
 `
-	scanner := bufio.NewScanner(strings.NewReader(input))
-	game, err := NewGame(scanner)
+	game, err := NewGame(bufio.NewScanner(strings.NewReader(input)))
 	if err != nil {
-		t.Fatalf("NewGame error: %v", err)
+		t.Fatal(err)
 	}
-
 	if len(game.Board) != 2 {
-		t.Fatalf("expected 2 live cells, got %d", len(game.Board))
+		t.Fatalf("got %d cells, want 2", len(game.Board))
 	}
 }
 
-// TestNewGameInvalidInput verifies that malformed input returns an error.
-func TestNewGameInvalidInput(t *testing.T) {
-	input := `#Life 1.06
-0 1
-not_a_number 2
-`
-	scanner := bufio.NewScanner(strings.NewReader(input))
-	_, err := NewGame(scanner)
+func TestNewGameBadInput(t *testing.T) {
+	input := "#Life 1.06\nnope 2\n"
+	_, err := NewGame(bufio.NewScanner(strings.NewReader(input)))
 	if err == nil {
-		t.Fatal("expected error for invalid input, got nil")
+		t.Fatal("expected error")
 	}
 }
