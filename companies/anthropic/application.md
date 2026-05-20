@@ -4,8 +4,8 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Research Engineer, Agents | — | `Applied` | Awaiting response | — |
-| Staff / Senior Software Engineer, Inference | — | `Applied` | Awaiting response | — |
+| Research Engineer, Agents | — | `Rejected` | — | Rejected 2026-05-06 |
+| Staff / Senior Software Engineer, Inference | — | `Rejected` | — | Rejected 2026-05-06 |
 
 ---
 
@@ -16,7 +16,7 @@
 | Role | Research Engineer, Agents |
 | Team / Org | Agents |
 | Recruiter | — |
-| Status | `Applied` |
+| Status | `Rejected` |
 
 ## Active Position 2 — Staff / Senior SWE, Inference
 
@@ -25,7 +25,7 @@
 | Role | Staff / Senior Software Engineer, Inference |
 | Team / Org | Inference |
 | Recruiter | — |
-| Status | `Applied` |
+| Status | `Rejected` |
 
 ## Timeline
 
@@ -33,6 +33,7 @@
 |---|---|---|
 | 2026-04-23 | Applied | Research Engineer, Agents |
 | 2026-04-23 | Applied | Staff / Senior SWE, Inference |
+| 2026-05-06 | Rejected | Both roles — no further process |
 
 ## Interview Rounds
 

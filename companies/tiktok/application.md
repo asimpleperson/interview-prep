@@ -17,14 +17,16 @@
 | Date | Event | Notes |
 |---|---|---|
 | 2026-04-27 11:00 | Round 1 Interview | Passed |
-| 2026-04-30 14:00 | Round 2 Interview | Scheduled |
+| 2026-04-30 | Round 2 rescheduled | Moved to 2026-05-06 13:00 |
+| 2026-05-06 | Round 2 rescheduled again | Moved to 2026-05-11, time TBD |
+| 2026-05-11 | Round 2 Interview | Completed — awaiting result |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
 | Round 1 | 2026-04-27 | 11:00 | — | — | Passed | — |
-| Round 2 | 2026-04-30 | 14:00 | — | — | Pending | — |
+| Round 2 | 2026-05-11 | — | — | — | Awaiting | Completed 2026-05-11 |
 
 ---
 

@@ -169,7 +169,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Remove Nth Node From End | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [📖](https://programmercarl.com/0019.删除链表的倒数第N个节点.html) |
+| [x] | Remove Nth Node From End | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [📖](https://programmercarl.com/0019.删除链表的倒数第N个节点.html) |
 | [x] | Linked List Cycle II | [142](https://leetcode.com/problems/linked-list-cycle-ii/) | [📖](https://programmercarl.com/0142.环形链表II.html) |
 
 ### Pointer Reset — intersection via equal-distance traversal
@@ -256,7 +256,7 @@
 |------|---------|-----|--------|
 | [x] | Invert Binary Tree | [226](https://leetcode.com/problems/invert-binary-tree/) | [📖](https://programmercarl.com/0226.翻转二叉树.html) |
 | [x] | Symmetric Tree | [101](https://leetcode.com/problems/symmetric-tree/) | [📖](https://programmercarl.com/0101.对称二叉树.html) |
-| [ ] | Maximum Depth | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [📖](https://programmercarl.com/0104.二叉树的最大深度.html) |
+| [x] | Maximum Depth | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [📖](https://programmercarl.com/0104.二叉树的最大深度.html) |
 | [ ] | Balanced Binary Tree | [110](https://leetcode.com/problems/balanced-binary-tree/) | [📖](https://programmercarl.com/0110.平衡二叉树.html) |
 | [ ] | Path Sum | [112](https://leetcode.com/problems/path-sum/) | [📖](https://programmercarl.com/0112.路径总和.html) |
 
@@ -332,8 +332,8 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Pacific Atlantic Water Flow | [417](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [📖](https://programmercarl.com/0417.太平洋大西洋水流问题.html) |
-| [ ] | Surrounded Regions | [130](https://leetcode.com/problems/surrounded-regions/) | [📖](https://programmercarl.com/0130.被围绕的区域.html) |
+| [x] | Pacific Atlantic Water Flow | [417](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [📖](https://programmercarl.com/0417.太平洋大西洋水流问题.html) |
+| [x] | Surrounded Regions | [130](https://leetcode.com/problems/surrounded-regions/) | [📖](https://programmercarl.com/0130.被围绕的区域.html) |
 
 ### Multi-Source BFS — simultaneous wavefront from all start nodes
 
@@ -341,7 +341,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Rotting Oranges | [994](https://leetcode.com/problems/rotting-oranges/) | — |
+| [x] | Rotting Oranges | [994](https://leetcode.com/problems/rotting-oranges/) | — |
 
 ### BFS on Implicit Graph — state as node, transformation as edge
 
@@ -349,13 +349,13 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Word Ladder | [127](https://leetcode.com/problems/word-ladder/) | — |
+| [x] | Word Ladder | [127](https://leetcode.com/problems/word-ladder/) | — |
 
 ### DFS on DAG — enumerate all paths
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | All Paths From Source to Target | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [📖](https://programmercarl.com/0797.所有可能的路径.html) |
+| [x] | All Paths From Source to Target | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [📖](https://programmercarl.com/0797.所有可能的路径.html) |
 
 ---
 
@@ -380,7 +380,7 @@
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
 | [x] | Course Schedule | [207](https://leetcode.com/problems/course-schedule/) | [📖](https://programmercarl.com/0207.课程表.html) |
-| [ ] | Course Schedule II | [210](https://leetcode.com/problems/course-schedule-ii/) | [📖](https://programmercarl.com/0210.课程表II.html) |
+| [x] | Course Schedule II | [210](https://leetcode.com/problems/course-schedule-ii/) | [📖](https://programmercarl.com/0210.课程表II.html) |
 
 ---
 
@@ -453,7 +453,7 @@
 
 | Done | Problem | LC | 随想录 |
 |------|---------|-----|--------|
-| [ ] | Jump Game | [55](https://leetcode.com/problems/jump-game/) | [📖](https://programmercarl.com/0055.跳跃游戏.html) |
+| [x] | Jump Game | [55](https://leetcode.com/problems/jump-game/) | [📖](https://programmercarl.com/0055.跳跃游戏.html) |
 | [ ] | Jump Game II | [45](https://leetcode.com/problems/jump-game-ii/) | [📖](https://programmercarl.com/0045.跳跃游戏II.html) |
 
 ### Two-Pass Greedy — left→right then right→left

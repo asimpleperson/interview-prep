@@ -4,7 +4,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Principal Software Engineer | — | `Recruiter Screen` | Awaiting interview scheduling | Availabilities submitted 2026-04-28 |
+| Principal Software Engineer | — | `Onsite` | Awaiting onsite scheduling | Availabilities submitted |
 
 ---
 
@@ -18,7 +18,7 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | — |
-| Status | `Recruiter Screen` |
+| Status | `Onsite` |
 
 ## Timeline
 
@@ -26,12 +26,18 @@
 |---|---|---|
 | 2026-04-28 10:00 | Recruiter call | Completed |
 | 2026-04-28 | Availabilities submitted | Awaiting interview scheduling |
+| 2026-05-08 | Round 1 changed to OA | Format simplified |
+| 2026-05-11 | OA completed | Passed |
+| 2026-05-14 10:30 | Round 2 Interview | Passed |
+| 2026-05-13 | Onsite availabilities submitted | Awaiting scheduling |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
 | Recruiter Call | 2026-04-28 | 10:00 | Phone | — | Passed | — |
+| Round 1 (OA) | 2026-05-11 | — | Online Assessment | — | Passed | Changed from live interview |
+| Round 2 | 2026-05-14 | 10:30 | — | — | Passed | — |
 
 ---
 

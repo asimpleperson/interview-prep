@@ -10,19 +10,20 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | — |
-| Status | `Tech Screen` |
+| Status | `Rejected` |
 
 ## Timeline
 
 | Date | Event | Notes |
 |---|---|---|
-| 2026-04-30 10:30 | Round 1 Interview | Scheduled |
+| 2026-04-30 10:30 | Round 1 Interview | Completed — felt difficult |
+| 2026-05-06 | Rejected | Did not advance past Round 1 |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
-| Round 1 | 2026-04-30 | 10:30 | — | — | Pending | — |
+| Round 1 | 2026-04-30 | 10:30 | — | — | Rejected | Felt difficult |
 
 ---
 

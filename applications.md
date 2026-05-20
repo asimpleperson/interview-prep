@@ -17,23 +17,24 @@
 
 ## Summary
 
-| Company | Active Roles | Status |
-|---|---|---|
-| [TikTok](#tiktok) | 1 | `Tech Screen` · Round 2 on 2026-04-30 14:00 |
-| [Riot Games](#riot-games) | 1 | `Recruiter Screen` · Availabilities submitted, awaiting scheduling |
-| [Zocdoc](#zocdoc) | 1 | `Tech Screen` · Interview on 2026-05-08 11:15 |
-| [Socure](#socure) | 1 | `Recruiter Screen` · Awaiting recruiter response |
-| [Reddit](#reddit) | 1 | `Recruiter Screen` · Awaiting recruiter response |
-| [Glean](#glean) | 1 | `Tech Screen` · Round 1 on 2026-04-30 10:30 |
-| [Meta](#meta) | 1 | `Recruiter Screen` · ⚠️ Follow up 2026-04-30 |
-| [OpenAI](#openai) | 1 | `Recruiter Screen` · Awaiting recruiter response |
-| [Google](#google) | 1 active, 2 rejected | `Applied` |
-| [Uber](#uber) | 2 active, 1 rejected | `Applied` |
-| [Databricks](#databricks) | 1 | `Applied` · via referral |
-| [Netflix](#netflix) | 1 | `Applied` |
-| [Anthropic](#anthropic) | 2 | `Applied` |
-| [Amazon](#amazon) | — | `Researching` |
-| [Apple](#apple) | — | `Researching` |
+| Company | Active Roles | Status | Last Updated |
+|---|---|---|---|
+| [TikTok](#tiktok) | 1 | `Tech Screen` · Round 2 completed · awaiting result | 2026-05-11 |
+| [Microsoft](#microsoft) | 1 | `Tech Screen` · Availabilities submitted · awaiting scheduling | 2026-05-13 |
+| [Riot Games](#riot-games) | 1 | `Onsite` · Availabilities submitted · awaiting scheduling | 2026-05-13 |
+| [Meta](#meta) | 0 | `Rejected` · Phone call 2026-05-13 | 2026-05-13 |
+| [Uber](#uber) | 1 active | `Tech Screen` · Uber Direct · Round 1 phone screen 2026-05-18 14:00 | 2026-05-13 |
+| [OpenAI](#openai) | 1 | `Recruiter Screen` · Waiting on team · follow-up sent 5/6 | 2026-05-06 |
+| [Reddit](#reddit) | 1 | `Recruiter Screen` · No response · follow-up sent 5/6 | 2026-05-06 |
+| [Socure](#socure) | 1 | `Recruiter Screen` · Awaiting recruiter response | 2026-04-28 |
+| [Google](#google) | 1 active, 2 rejected | `Applied` · Passed resume screen | pre-2026-04-28 |
+| [Netflix](#netflix) | 1 | `Applied` · Awaiting response | pre-2026-04-28 |
+| [Apple](#apple) | 1 | `Applied` · Via referral | 2026-05-06 |
+| [Databricks](#databricks) | 0 | `Rejected` · L5 tenure concern | 2026-05-06 |
+| [Anthropic](#anthropic) | 0, 2 rejected | `Rejected` | 2026-05-06 |
+| [Zocdoc](#zocdoc) | 0 | `Rejected` · Did not advance past Round 1 | 2026-05-11 |
+| [Glean](#glean) | 0 | `Rejected` · Did not advance past Round 1 | 2026-04-30 |
+| [Amazon](#amazon) | — | `Researching` | — |
 
 ---
 
@@ -43,17 +44,17 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Tech Lead / Sr SWE — Monetization Technology | — | `Tech Screen` | Round 2 · **2026-04-30 14:00** | Round 1 Passed |
+| Tech Lead / Sr SWE — Monetization Technology | — | `Tech Screen` | Awaiting Round 2 result | Round 2 completed 2026-05-11 |
 
 ---
 
-## Zocdoc
+## Microsoft
 
-[Application details](companies/zocdoc/application.md) · [Company prep](companies/zocdoc/CLAUDE.md)
+[Application details](companies/microsoft/application.md) · [Company prep](companies/microsoft/CLAUDE.md)
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| *(role TBD)* | — | `Tech Screen` | Interview · **2026-05-08 11:15** | Recruiter screen completed |
+| TBD | — | `Tech Screen` | Awaiting technical phone screen scheduling | Availabilities submitted 2026-05-13 |
 
 ---
 
@@ -63,17 +64,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Principal Software Engineer | — | `Recruiter Screen` | Awaiting interview scheduling | Availabilities submitted 2026-04-28 |
-
----
-
-## Glean
-
-[Application details](companies/glean/application.md) · [Company prep](companies/glean/CLAUDE.md)
-
-| Role | Account | Status | Next Step | Notes |
-|---|---|---|---|---|
-| Forward Deployed Engineer | — | `Tech Screen` | Round 1 · **2026-04-30 10:30** | — |
+| Principal Software Engineer | — | `Onsite` | Awaiting onsite scheduling | Round 2 passed 2026-05-14 · availabilities submitted |
 
 ---
 
@@ -83,7 +74,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Software Engineer, Infrastructure | — | `Recruiter Screen` | ⚠️ Follow up · **2026-04-30** | Recruiter conversation in progress |
+| Software Engineer, Infrastructure | — | `Rejected` | — | Rejected via phone call 2026-05-13 |
 
 ---
 
@@ -93,7 +84,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| TBD | — | `Recruiter Screen` | Awaiting recruiter response | Recruiter call done · moved forward |
+| TBD | — | `Recruiter Screen` | Awaiting recruiter response | Recruiter call done · moved forward · last contact 2026-04-28 |
 
 ---
 
@@ -113,7 +104,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Senior SWE, GenAI Platform | — | `Recruiter Screen` | Awaiting recruiter response | Recruiter call done · via referral |
+| Senior SWE, GenAI Platform | — | `Recruiter Screen` | ⚠️ No response to follow-up · consider next action | Follow-up email sent 2026-05-06 · no reply |
 
 ---
 
@@ -135,8 +126,8 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Staff Engineer - Core Infrastructure | zhihaohu921113 | `Applied` | Awaiting response | — |
-| Senior Software Engineer, Uber Direct | huzhihao505 | `Applied` | Awaiting response | — |
+| Staff Engineer - Core Infrastructure | zhihaohu921113 | `Rejected` | — | Rejected 2026-05-11 |
+| Senior Software Engineer, Uber Direct | huzhihao505 | `Tech Screen` | Round 1 phone screen · **2026-05-18 14:00** | — |
 | Staff SWE - Remote Assistance | zhihaohu921113 | `Rejected` | — | Rejected after application |
 
 ---
@@ -147,7 +138,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Staff Software Engineer | — | `Applied` | Awaiting response | Resume via referral: friend → director |
+| Staff Software Engineer | — | `Rejected` | — | L5 tenure concern · rejected 2026-05-06 |
 
 ---
 
@@ -167,8 +158,8 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Research Engineer, Agents | — | `Applied` | Awaiting response | — |
-| Staff / Senior Software Engineer, Inference | — | `Applied` | Awaiting response | — |
+| Research Engineer, Agents | — | `Rejected` | — | Rejected 2026-05-06 |
+| Staff / Senior Software Engineer, Inference | — | `Rejected` | — | Rejected 2026-05-06 |
 
 ---
 
@@ -178,7 +169,27 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Staff Software Engineer | — | `Recruiter Screen` | Awaiting recruiter response | Bay Area role — relocation TBD |
+| Staff Software Engineer | — | `Recruiter Screen` | Awaiting team decision | Follow-up sent 2026-05-06 · recruiter replied "waiting on team" · Bay Area role |
+
+---
+
+## Zocdoc
+
+[Application details](companies/zocdoc/application.md) · [Company prep](companies/zocdoc/CLAUDE.md)
+
+| Role | Account | Status | Next Step | Notes |
+|---|---|---|---|---|
+| *(role TBD)* | — | `Rejected` | — | Rejected 2026-05-11 |
+
+---
+
+## Glean
+
+[Application details](companies/glean/application.md) · [Company prep](companies/glean/CLAUDE.md)
+
+| Role | Account | Status | Next Step | Notes |
+|---|---|---|---|---|
+| Forward Deployed Engineer | — | `Rejected` | — | Did not advance past Round 1 |
 
 ---
 
@@ -198,7 +209,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| — | — | `Researching` | — | — |
+| Staff Software Engineer | — | `Applied` | Awaiting response | Via referral · 2026-05-06 |
 
 ---
 

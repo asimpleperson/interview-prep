@@ -10,7 +10,7 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | — |
-| Status | `Recruiter Screen` |
+| Status | `Rejected` |
 
 ## Timeline
 
@@ -18,12 +18,17 @@
 |---|---|---|
 | — | Applied | Software Engineer, Infrastructure |
 | — | Passed Resume Screening | Moved to recruiter conversation |
+| 2026-04-30 | Follow-up email sent to recruiter | — |
+| 2026-05-06 | Online Assessment unlocked | Must complete by 2026-05-14 |
+| 2026-05-12 | Online Assessment completed | Awaiting result |
+| 2026-05-13 | Rejected | Notified via phone call |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
-| Recruiter Call | — | — | Phone | — | In progress | — |
+| Recruiter Call | — | — | Phone | — | Passed | — |
+| Online Assessment | 2026-05-12 | — | Async | — | Rejected | Rejected 2026-05-13 via phone |
 
 ---
 

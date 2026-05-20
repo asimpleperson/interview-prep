@@ -11,13 +11,14 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | — |
-| Status | `Applied` |
+| Status | `Rejected` |
 
 ## Timeline
 
 | Date | Event | Notes |
 |---|---|---|
 | — | Resume submitted via referral | Friend forwarded to his director |
+| 2026-05-06 | Rejected | Did not advance — concern over time spent at L5 |
 
 ## Interview Rounds
 

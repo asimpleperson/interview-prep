@@ -10,13 +10,13 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | — |
-| Status | `Researching` |
+| Status | `Applied` |
 
 ## Timeline
 
 | Date | Event | Notes |
 |---|---|---|
-| — | — | — |
+| 2026-05-06 | Referred by friend | Application submitted via referral |
 
 ## Interview Rounds
 
