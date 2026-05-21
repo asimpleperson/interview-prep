@@ -5,7 +5,7 @@
 | Role | Account | Applied | Status | Notes |
 |---|---|---|---|---|
 | Staff Engineer - Core Infrastructure | zhihaohu921113 | — | `Rejected` | Rejected 2026-05-11 |
-| Senior Software Engineer, Uber Direct | huzhihao505 | — | `Tech Screen` | Round 1 phone screen · 2026-05-18 14:00 |
+| Senior Software Engineer, Uber Direct | huzhihao505 | — | `Withdrawn` | Passed phone screen · position filled · exploring other roles |
 | Staff Software Engineer - Remote Assistance | zhihaohu921113 | — | `Rejected` | Rejected after application |
 
 ---
@@ -26,7 +26,7 @@
 | Role | Senior Software Engineer, Uber Direct |
 | Account | huzhihao505 |
 | Recruiter | — |
-| Status | `Tech Screen` |
+| Status | `Withdrawn` |
 
 ## Timeline
 
@@ -36,7 +36,8 @@
 | — | Applied | Staff Engineer - Core Infrastructure (zhihaohu921113) |
 | — | Applied | Sr SWE, Uber Direct (huzhihao505) |
 | 2026-05-06 | Recruiter outreach | Sr SWE, Uber Direct — call being scheduled |
-| 2026-05-18 14:00 | Round 1 phone screen | Scheduled — Sr SWE, Uber Direct |
+| 2026-05-18 14:00 | Round 1 phone screen | Passed — Sr SWE, Uber Direct |
+| 2026-05-20 | Position filled | Sr SWE, Uber Direct — exploring other Uber roles |
 | — | Rejected | Staff SWE - Remote Assistance |
 | 2026-05-11 | Rejected | Staff Engineer - Core Infrastructure |
 
@@ -44,7 +45,7 @@
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
-| Round 1 (Phone Screen) | 2026-05-18 | 14:00 | Phone | — | Pending | Sr SWE, Uber Direct |
+| Round 1 (Phone Screen) | 2026-05-18 | 14:00 | Phone | — | Passed | Sr SWE, Uber Direct — position filled |
 
 ---
 

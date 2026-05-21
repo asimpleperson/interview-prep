@@ -23,4 +23,4 @@ Principal-level at Riot is a senior staff / principal IC track. Responsibilities
 - Player data platforms (telemetry, analytics, personalization)
 
 ## Links
-<!-- Add job posting, Glassdoor, team page, etc. -->
+- **Riot Values:** https://www.riotgames.com/en/who-we-are/values — study and map BQ stories to these values

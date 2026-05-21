@@ -4,7 +4,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Senior Software Engineer, GenAI Platform | — | `Recruiter Screen` | Recruiter call · **2026-04-28 12:00** | Via referral |
+| Senior Software Engineer, GenAI Platform | — | `Tech Screen` | Phone screen · **2026-05-21 07:30** | Via referral |
 
 ---
 
@@ -19,20 +19,22 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | 2026-04-23 |
-| Status | `Recruiter Screen` |
+| Status | `Tech Screen` |
 
 ## Timeline
 
 | Date | Event | Notes |
 |---|---|---|
 | 2026-04-23 | Referred | Via referral |
-| 2026-04-28 12:00 | Recruiter call | Rescheduled from 2026-04-27 10:30 |
+| 2026-04-28 12:00 | Recruiter call | Completed |
+| 2026-05-21 07:30 | Phone screen | Scheduled |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
-| Recruiter Call | 2026-04-28 | 12:00 | Phone | — | Pending | Rescheduled from 4/27 |
+| Recruiter Call | 2026-04-28 | 12:00 | Phone | — | Passed | — |
+| Phone Screen | 2026-05-21 | 07:30 | Phone | — | Pending | — |
 
 ---
 

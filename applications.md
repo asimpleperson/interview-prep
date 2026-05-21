@@ -21,11 +21,12 @@
 |---|---|---|---|
 | [TikTok](#tiktok) | 1 | `Tech Screen` · Round 2 completed · awaiting result | 2026-05-11 |
 | [Microsoft](#microsoft) | 1 | `Tech Screen` · Availabilities submitted · awaiting scheduling | 2026-05-13 |
-| [Riot Games](#riot-games) | 1 | `Onsite` · Availabilities submitted · awaiting scheduling | 2026-05-13 |
+| [Riot Games](#riot-games) | 1 | `Onsite` · Day 1 2026-05-21 · Day 2 2026-05-26 | 2026-05-20 |
 | [Meta](#meta) | 0 | `Rejected` · Phone call 2026-05-13 | 2026-05-13 |
-| [Uber](#uber) | 1 active | `Tech Screen` · Uber Direct · Round 1 phone screen 2026-05-18 14:00 | 2026-05-13 |
+| [Uber](#uber) | 0 active | `Withdrawn` · Uber Direct position filled · exploring other roles | 2026-05-20 |
+| [MAI](#mai) | 1 | `Tech Screen` · Phone screens 2026-06-02 (Manager + Principal Eng) | 2026-05-20 |
 | [OpenAI](#openai) | 1 | `Recruiter Screen` · Waiting on team · follow-up sent 5/6 | 2026-05-06 |
-| [Reddit](#reddit) | 1 | `Recruiter Screen` · No response · follow-up sent 5/6 | 2026-05-06 |
+| [Reddit](#reddit) | 1 | `Tech Screen` · Phone screen 2026-05-21 07:30 | 2026-05-20 |
 | [Socure](#socure) | 1 | `Recruiter Screen` · Awaiting recruiter response | 2026-04-28 |
 | [Google](#google) | 1 active, 2 rejected | `Applied` · Passed resume screen | pre-2026-04-28 |
 | [Netflix](#netflix) | 1 | `Applied` · Awaiting response | pre-2026-04-28 |
@@ -64,7 +65,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Principal Software Engineer | — | `Onsite` | Awaiting onsite scheduling | Round 2 passed 2026-05-14 · availabilities submitted |
+| Principal Software Engineer | — | `Onsite` | Day 1 · **2026-05-21 11:00–15:30** · Day 2 · **2026-05-26 13:00–17:00** | — |
 
 ---
 
@@ -88,6 +89,16 @@
 
 ---
 
+## MAI
+
+[Application details](companies/mai/application.md) · [Company prep](companies/mai/CLAUDE.md)
+
+| Role | Account | Status | Next Step | Notes |
+|---|---|---|---|---|
+| TBD | — | `Tech Screen` | Phone screen — Manager · **2026-06-02 13:00** · Principal Engineer · **2026-06-02 14:30** | — |
+
+---
+
 ## Startups
 
 [Application details](companies/startups/application.md) · [Notes](companies/startups/CLAUDE.md)
@@ -104,7 +115,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Senior SWE, GenAI Platform | — | `Recruiter Screen` | ⚠️ No response to follow-up · consider next action | Follow-up email sent 2026-05-06 · no reply |
+| Senior SWE, GenAI Platform | — | `Tech Screen` | Phone screen · **2026-05-21 07:30** | — |
 
 ---
 
@@ -127,7 +138,7 @@
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
 | Staff Engineer - Core Infrastructure | zhihaohu921113 | `Rejected` | — | Rejected 2026-05-11 |
-| Senior Software Engineer, Uber Direct | huzhihao505 | `Tech Screen` | Round 1 phone screen · **2026-05-18 14:00** | — |
+| Senior Software Engineer, Uber Direct | huzhihao505 | `Withdrawn` | — | Passed phone screen · position filled 2026-05-20 |
 | Staff SWE - Remote Assistance | zhihaohu921113 | `Rejected` | — | Rejected after application |
 
 ---
