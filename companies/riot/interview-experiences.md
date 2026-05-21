@@ -642,22 +642,43 @@ All behavioral questions centered on: leading teams, receiving feedback, and wil
 
 ## Common Themes
 
-<!-- Fill in as patterns emerge across experiences -->
-
 ### Player & Mission Focus
-
+- Riot uniquely evaluates whether you know YOUR OWN company's culture (Exp 11)
+- "Why Riot?" must be genuine, not generic (Exp 5, 7)
+- Lunch/casual rounds are real evaluation rounds (Exp 5)
+- Study Riot values page: https://www.riotgames.com/en/who-we-are/values
 
 ### Deep Tech
-
+- **Profanity/toxic content filter** is the #1 recurring topic (Exp 6, 7, 11) — know Rabin-Karp
+- LoL end-to-end architecture: client → auth → lobby → matchmaking → champ select → game server (Exp 1, 9)
+- Design topics seen: matchmaking, rate limiter, password reset, patch distribution, leaderboard, game config, toxic comment service
+- Language internals are probed (Exp 6) — know your primary language's compilation, GC, concurrency model
+- Security/anti-cheat is first-class (Exp 1, 5)
+- Two interviewers drill-down on whatever you say (Exp 1, 2)
 
 ### Broad Tech
-
+- **Game of Life is the confirmed staff-level take-home** (Exp 10, 11)
+- Infinite input variant: distributed sharding is the winning answer (Exp 11)
+- Expect: overflow handling, scalability, testing strategy, "what would you improve?"
+- Depth round may probe language internals through your code choices (Exp 6)
+- Breadth round tests networking fundamentals: DNS, TCP/UDP, SSL, OSI, proxies (Exp 7, 9)
 
 ### Innovative Problem Solving
-
+- Hardest challenge walkthrough (Exp 5) — show diagnosis, wrong turns, learning
+- Less data from experiences but tests HOW you think, not WHAT you built
 
 ### Communicate & Collaborate
-
+- Giving negative feedback (Exp 6 — confirmed question)
+- Working with PMs, receiving feedback, handling missed deadlines (Exp 5)
+- Communication skill evaluated LIVE, not just stories (Exp 7)
+- Explain technical concepts to non-technical people and read the room (Exp 7)
+- Work handoff/transition (Exp 6 — confirmed question)
 
 ### Engineering Leadership
+- Two managers drill for EXTREME specifics (Exp 3) — vague = fail
+- Confirmed questions: leading teams to success, conflict resolution, planning details
+- Growth mindset: "what did you learn recently?" (Exp 6)
+- Working under pressure (Exp 6)
+- Frame as team success, not personal heroics (Riot collaborative culture)
+- Staff level gets 2-3 BQ rounds — behavioral prep is majority of interview (Exp 10, 11)
 
