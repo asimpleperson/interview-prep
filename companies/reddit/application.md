@@ -4,7 +4,7 @@
 
 | Role | Account | Status | Next Step | Notes |
 |---|---|---|---|---|
-| Senior Software Engineer, GenAI Platform | — | `Tech Screen` | Phone screen · **2026-05-21 07:30** | Via referral |
+| Senior Software Engineer, GenAI Platform | — | `Onsite` | Onsite · **2026-06-08 12:00–15:00** & **2026-06-09 14:00–16:00** | Via referral · Phone screen passed |
 
 ---
 
@@ -19,7 +19,7 @@
 | Recruiter Email | — |
 | Job Req ID | — |
 | Applied | 2026-04-23 |
-| Status | `Tech Screen` |
+| Status | `Onsite` |
 
 ## Timeline
 
@@ -27,14 +27,18 @@
 |---|---|---|
 | 2026-04-23 | Referred | Via referral |
 | 2026-04-28 12:00 | Recruiter call | Completed |
-| 2026-05-21 07:30 | Phone screen | Scheduled |
+| 2026-05-21 07:30 | Phone screen | Passed |
+| 2026-06-08 12:00–15:00 | Onsite (Day 1) | Scheduled |
+| 2026-06-09 14:00–16:00 | Onsite (Day 2) | Scheduled |
 
 ## Interview Rounds
 
 | Round | Date | Time | Format | Interviewer | Result | Notes |
 |---|---|---|---|---|---|---|
 | Recruiter Call | 2026-04-28 | 12:00 | Phone | — | Passed | — |
-| Phone Screen | 2026-05-21 | 07:30 | Phone | — | Pending | — |
+| Phone Screen | 2026-05-21 | 07:30 | Phone | — | Passed | — |
+| Onsite — Day 1 | 2026-06-08 | 12:00–15:00 | Onsite | — | Pending | Mon · 3 hrs (incl. ML design round) |
+| Onsite — Day 2 | 2026-06-09 | 14:00–16:00 | Onsite | — | Pending | Tue · 2 hrs |
 
 ---
 
