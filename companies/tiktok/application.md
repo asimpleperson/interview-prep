@@ -7,28 +7,19 @@
 | Role | Tech Lead / Senior Software Engineer |
 | Team / Org | Monetization Technology |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Tech Screen` |
+| Status | `ghosted` |
+| Decision | Ghosted — no response after Round 2 (completed 2026-05-11) |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
-| 2026-04-27 11:00 | Round 1 Interview | Passed |
+| 2026-04-27 11:00 | Round 1 interview | Passed |
 | 2026-04-30 | Round 2 rescheduled | Moved to 2026-05-06 13:00 |
-| 2026-05-06 | Round 2 rescheduled again | Moved to 2026-05-11, time TBD |
-| 2026-05-11 | Round 2 Interview | Completed — awaiting result |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| Round 1 | 2026-04-27 | 11:00 | — | — | Passed | — |
-| Round 2 | 2026-05-11 | — | — | — | Awaiting | Completed 2026-05-11 |
-
----
+| 2026-05-06 | Round 2 rescheduled again | Moved to 2026-05-11 |
+| 2026-05-11 | Round 2 interview | Completed |
+| 2026-06-21 | Ghosted | No response since Round 2 — treating as ghosted |
 
 ## Prep Checklist for This Role
 
@@ -64,8 +55,6 @@ Monetization Technology system design problems center on ads infrastructure.
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for TikTok / Monetization Technology notes
-
----
 
 ## Notes / Observations
 

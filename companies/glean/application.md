@@ -7,25 +7,16 @@
 | Role | Forward Deployed Engineer |
 | Team / Org | — |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Rejected` |
+| Status | `rejected` |
+| Decision | Rejected — did not advance past Round 1 (2026-05-06) |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
-| 2026-04-30 10:30 | Round 1 Interview | Completed — felt difficult |
+| 2026-04-30 10:30 | Round 1 interview | Completed — felt difficult |
 | 2026-05-06 | Rejected | Did not advance past Round 1 |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| Round 1 | 2026-04-30 | 10:30 | — | — | Rejected | Felt difficult |
-
----
 
 ## Prep Checklist for This Role
 
@@ -61,8 +52,6 @@ FDE interviews often include situational questions — frame answers with custom
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for Glean-specific notes
-
----
 
 ## Notes / Observations
 

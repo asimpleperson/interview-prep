@@ -4,29 +4,19 @@
 
 | Field | Value |
 |---|---|
-| Role | TBD |
-| Team / Org | — |
+| Role | Senior Software Engineer |
+| Team / Org | Analysis Services (AS) Engine |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Tech Screen` |
+| Status | `active` |
+| Decision | — |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
-| 2026-05-06 13:30 | Recruiter chat | Completed |
+| 2026-05-06 13:30 | Recruiter chat | Passed |
 | 2026-05-13 | Technical phone screen availabilities submitted | Awaiting scheduling |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| Recruiter Chat | 2026-05-06 | 13:30 | Phone | — | Passed | — |
-| Technical Phone Screen | TBD | TBD | Phone | — | Pending | Availabilities submitted 2026-05-13 |
-
----
 
 ## Prep Checklist for This Role
 
@@ -36,7 +26,13 @@
 - [ ] Graph algorithms
 
 ### System Design
-- [ ] TBD — populate once role details are known
+Analysis Services (AS) Engine — OLAP / query-engine team (engine behind SSAS & Power BI semantic models).
+- [ ] Columnar storage & in-memory engines (VertiPaq-style compression, encoding)
+- [ ] Query execution & optimization (logical/physical plans, vectorized execution)
+- [ ] OLAP fundamentals — cubes, tabular models, aggregations, MDX/DAX evaluation
+- [ ] Caching & materialized aggregations for query acceleration
+- [ ] Concurrency, memory management, and large-dataset processing
+- [ ] Distributed query / scale-out and multi-tenant resource governance
 
 ### Behavioral
 - [ ] Growth mindset / learn-it-all culture
@@ -45,8 +41,6 @@
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for Microsoft-specific notes
-
----
 
 ## Notes / Observations
 

@@ -6,25 +6,17 @@
 |---|---|
 | Role | Staff Software Engineer |
 | Team / Org | — |
+| Referral | Via friend |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
-| Applied | — |
-| Status | `Applied` |
+| Applied | 2026-05-06 |
+| Status | `submitted` |
+| Decision | — |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
-| 2026-05-06 | Referred by friend | Application submitted via referral |
-
-## Interview Rounds
-
-| Round | Date | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|
-| — | — | — | — | — | — |
-
----
+| 2026-05-06 | Referred by friend | Application submitted via referral — awaiting response |
 
 ## Prep Checklist for This Role
 
@@ -52,8 +44,6 @@ Apple values craft, attention to detail, and deep ownership.
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for Apple-specific notes
-
----
 
 ## Notes / Observations
 

@@ -5,26 +5,19 @@
 | Field | Value |
 |---|---|
 | Role | Staff Software Engineer |
-| Team / Org | — |
+| Team / Org | — (Bay Area) |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Recruiter Screen` |
+| Status | `submitted` |
+| Decision | — (no team match — stalled, no response) |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
 | 2026-04-28 11:00 | Recruiter call | Bay Area role — relocation TBD |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| Recruiter Call | 2026-04-28 | 11:00 | Phone | — | Pending | Bay Area role |
-
----
+| 2026-05-06 | Follow-up sent | Recruiter replied "waiting on team" |
+| 2026-06-21 | No team match | No team picked up — stalled, no response |
 
 ## Prep Checklist for This Role
 
@@ -51,8 +44,6 @@ OpenAI problems skew toward inference infrastructure and ML systems.
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for OpenAI-specific notes
-
----
 
 ## Notes / Observations
 

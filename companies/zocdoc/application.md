@@ -1,42 +1,24 @@
 # Zocdoc — Application
 
-## Positions
-
-| Role | Account | Status | Next Step | Notes |
-|---|---|---|---|---|
-| — *(role TBD)* | — | `Rejected` | — | Rejected 2026-05-11 |
-
----
-
-## Active Position — Role TBD
+## Position
 
 | Field | Value |
 |---|---|
-| Role | — |
+| Role | TBD |
 | Team / Org | — |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Rejected` |
+| Status | `rejected` |
+| Decision | Rejected — did not advance past Round 1 (2026-05-11) |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
 | 2026-04-27 | Recruiter call rescheduled | Moved to 4/28 |
-| 2026-04-28 13:30 | Recruiter call | Completed |
+| 2026-04-28 13:30 | Recruiter call | Passed |
 | 2026-05-08 11:15 | Interview Round 1 | Completed |
 | 2026-05-11 | Rejected | Did not advance past Round 1 |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| Recruiter Call | 2026-04-28 | 13:30 | Phone | — | Passed | — |
-| Interview Round 1 | 2026-05-08 | 11:15 | — | — | Rejected | — |
-
----
 
 ## Prep Checklist for This Role
 
@@ -63,8 +45,6 @@ Healthcare marketplace — expect scheduling, data reliability, or integration p
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for Zocdoc-specific notes
-
----
 
 ## Notes / Observations
 

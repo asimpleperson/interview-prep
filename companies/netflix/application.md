@@ -4,27 +4,22 @@
 
 | Field | Value |
 |---|---|
-| Role | Software Engineer 5 - Ads Pricing & Packaging |
-| Team / Org | Ads Pricing & Packaging |
+| Role | Distributed Systems Engineer 5 (L5) — Decisioning & Optimization |
+| Team / Org | Netflix Ads — Decisioning & Optimization (Ad Serving & Decisioning org) |
+| Location | California |
+| Account | huzhihao505@gmail.com |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Applied` |
+| Status | `active` |
+| Decision | — |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
-| — | Applied | Software Engineer 5 - Ads Pricing & Packaging |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — |
-
----
+| — | Applied | Distributed Systems Engineer 5 — Decisioning & Optimization (L5, California) |
+| 2026-06-11 | Recruiter call | Passed |
+| 2026-06-24 11:00–12:00 PDT | L5 Technical Screen | **Confirmed** |
 
 ## Prep Checklist for This Role
 
@@ -36,14 +31,18 @@ Netflix SE5 interviews are rigorous. Expect hard problems with emphasis on clean
 - [ ] Data Structure Design
 - [ ] Heap / priority queue
 
-### System Design
-Ads Pricing & Packaging — expect revenue and inventory system design.
-- [ ] Ad inventory management and yield optimization
-- [ ] Pricing engine: floor prices, dynamic CPM, auction reserve prices
-- [ ] Programmatic advertising pipeline (RTB, direct deals)
-- [ ] Revenue forecasting and pacing at scale
-- [ ] A/B experimentation infrastructure for pricing strategies
-- [ ] High-availability services with Netflix-style chaos engineering resilience
+### System Design — key signals from the JD (Decisioning & Optimization)
+Real-time ad decisioning + low-latency ML serving. The must-know areas:
+- [ ] Real-time decisioning path: ranking → scoring → bidding → pacing under strict latency/throughput
+- [ ] ML model serving infra: many concurrent hot-path models, **sub-20ms P99**, model routing, lifecycle, fallback tiers, calibration
+- [ ] Auction mechanics: first-/second-price, reserve pricing, bid shading
+- [ ] Budget pacing & goal-based delivery: dynamic budget/inventory allocation across demand channels
+- [ ] Multi-stage ranking (retrieval → scoring → reranking); podding & ad-break planning
+- [ ] Simulation / counterfactual testing of marketplace & auction changes (offline validation before live rollout)
+- [ ] Ad-serving fundamentals: inventory mgmt, frequency capping, supply-demand, member ad-experience quality
+- [ ] Nice-to-have: CTV / server-side ad insertion (SSAI), live-event ad serving; experimentation (A/B, holdouts)
+
+Profile they want: 7+ yrs distributed systems, 2+ yrs ads domain, productionizing ML into low-latency serving paths.
 
 ### Behavioral
 Netflix culture is high-autonomy, high-accountability. Frame answers around ownership and outcomes.
@@ -58,8 +57,6 @@ Netflix culture is high-autonomy, high-accountability. Frame answers around owne
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for Netflix-specific notes
-
----
 
 ## Notes / Observations
 

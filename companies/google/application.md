@@ -1,45 +1,22 @@
 # Google — Application
 
-## Positions
-
-| Role | Req ID | Applied | Status | Notes |
-|---|---|---|---|---|
-| Staff Software Engineer, Infrastructure, Google Cloud AI | — | — | `Applied` | Active — passed resume screening |
-| Staff Software Engineer *(position 2)* | — | — | `Rejected` | Rejected at resume screening |
-| Staff Software Engineer *(position 3)* | — | — | `Rejected` | Rejected at resume screening |
-
-> Update position names and req IDs above as details are available.
-
----
-
-## Active Position — Staff SWE, Infrastructure, Google Cloud AI
+## Position
 
 | Field | Value |
 |---|---|
 | Role | Staff Software Engineer, Infrastructure |
 | Team / Org | Google Cloud AI |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Applied` |
+| Status | `submitted` |
+| Decision | — (passed resume screen, awaiting recruiter outreach) |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
-| — | Applied | 3 positions submitted |
-| — | Resume Rejected | Position 2 |
-| — | Resume Rejected | Position 3 |
-| — | Passed Resume Screen | Staff SWE, Infrastructure, Google Cloud AI |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — |
-
----
+| — | Applied | Staff SWE, Infrastructure — Google Cloud AI |
+| — | Passed resume screen | Awaiting recruiter outreach |
 
 ## Prep Checklist for This Role
 
@@ -75,8 +52,6 @@ Google uses the "Googleyness" rubric + structured behavioral with a heavy focus 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for Google-specific notes
 
----
-
 ## Notes / Observations
 
-<!-- Add recruiter conversations, interview feedback, impressions here -->
+- Two other Google applications were rejected at the resume screen (dropped — never interviewed).

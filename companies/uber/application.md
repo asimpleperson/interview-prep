@@ -1,53 +1,25 @@
 # Uber — Application
 
-## Positions
-
-| Role | Account | Applied | Status | Notes |
-|---|---|---|---|---|
-| Staff Engineer - Core Infrastructure | zhihaohu921113 | — | `Rejected` | Rejected 2026-05-11 |
-| Senior Software Engineer, Uber Direct | huzhihao505 | — | `Withdrawn` | Passed phone screen · position filled · exploring other roles |
-| Staff Software Engineer - Remote Assistance | zhihaohu921113 | — | `Rejected` | Rejected after application |
-
----
-
-## Active Position 1 — Staff Engineer, Core Infrastructure
-
-| Field | Value |
-|---|---|
-| Role | Staff Engineer - Core Infrastructure |
-| Account | zhihaohu921113 |
-| Recruiter | — |
-| Status | `Rejected` |
-
-## Active Position 2 — Senior Software Engineer, Uber Direct
+## Position
 
 | Field | Value |
 |---|---|
 | Role | Senior Software Engineer, Uber Direct |
+| Team / Org | Uber Direct |
 | Account | huzhihao505 |
 | Recruiter | — |
-| Status | `Withdrawn` |
+| Applied | — |
+| Status | `withdrawn` |
+| Decision | Withdrew — position filled 2026-05-20 after passing the phone screen |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
-| — | Applied | Staff SWE - Remote Assistance (zhihaohu921113) |
-| — | Applied | Staff Engineer - Core Infrastructure (zhihaohu921113) |
 | — | Applied | Sr SWE, Uber Direct (huzhihao505) |
-| 2026-05-06 | Recruiter outreach | Sr SWE, Uber Direct — call being scheduled |
-| 2026-05-18 14:00 | Round 1 phone screen | Passed — Sr SWE, Uber Direct |
-| 2026-05-20 | Position filled | Sr SWE, Uber Direct — exploring other Uber roles |
-| — | Rejected | Staff SWE - Remote Assistance |
-| 2026-05-11 | Rejected | Staff Engineer - Core Infrastructure |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| Round 1 (Phone Screen) | 2026-05-18 | 14:00 | Phone | — | Passed | Sr SWE, Uber Direct — position filled |
-
----
+| 2026-05-06 | Recruiter outreach | Call being scheduled |
+| 2026-05-18 14:00 | Round 1 phone screen | Passed |
+| 2026-05-20 | Position filled | Withdrew — exploring other Uber roles |
 
 ## Prep Checklist for This Role
 
@@ -59,15 +31,7 @@
 - [ ] Data Structure Design
 
 ### System Design
-
-**Core Infrastructure focus:**
-- [ ] Distributed consensus and leader election
-- [ ] Large-scale storage and replication
-- [ ] Service mesh and RPC frameworks
-- [ ] Observability: metrics, tracing, alerting at scale
-- [ ] Multi-region deployment and failover
-
-**Uber Direct / marketplace focus:**
+Uber Direct / marketplace focus:
 - [ ] Ride / delivery matching and dispatch
 - [ ] Geospatial indexing (H3, quadtrees, S2)
 - [ ] Surge pricing and supply-demand balancing
@@ -81,14 +45,13 @@
 - [ ] Staff-level scope: org-wide technical decisions
 
 ### Project Deep Dive
-- [ ] Infra narrative: reliability, scale, latency, or platform work
+- [ ] Infra / marketplace narrative: reliability, scale, latency, or platform work
 - [ ] Quantify: uptime, p99 latency, throughput, team impact
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for Uber-specific notes
 
----
-
 ## Notes / Observations
 
-<!-- Add recruiter conversations, interview feedback, impressions here -->
+- Two other Uber applications (Staff — Core Infrastructure, Staff — Remote Assistance, both
+  on zhihaohu921113) were rejected at the application stage and dropped — never interviewed.

@@ -6,57 +6,19 @@
 |---|---|
 | Role | Staff Software Engineer |
 | Team / Org | — |
-| Referral Via | Friend → Director |
+| Referral | Friend → Director |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Rejected` |
+| Status | `rejected` |
+| Decision | Rejected at resume/referral screen — concern over time at L5 (2026-05-06) |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
 | — | Resume submitted via referral | Friend forwarded to his director |
 | 2026-05-06 | Rejected | Did not advance — concern over time spent at L5 |
 
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — |
-
----
-
-## Prep Checklist for This Role
-
-### Coding
-- [ ] All Must-Have problems
-- [ ] Data Structure Design (heavy emphasis)
-- [ ] Graph algorithms
-- [ ] Dynamic programming
-
-### System Design
-Databricks focuses on data infrastructure and lakehouse patterns.
-- [ ] Distributed query execution (Spark-style)
-- [ ] Delta Lake / ACID on object storage
-- [ ] Streaming vs. batch processing
-- [ ] Metadata catalog systems
-- [ ] Data lake storage layout and compaction
-
-### Behavioral
-- [ ] Working on complex distributed systems under ambiguity
-- [ ] Driving architectural decisions in a fast-growing company
-- [ ] Technical mentorship and code quality
-
-### Project Deep Dive
-- [ ] Primary project narrative with emphasis on data systems if applicable
-
-### Company Research
-- [ ] See [CLAUDE.md](CLAUDE.md) for Databricks-specific notes
-
----
-
 ## Notes / Observations
 
-<!-- Add recruiter conversations, interview feedback, impressions here -->
+<!-- Add recruiter conversations, impressions here -->

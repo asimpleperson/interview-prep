@@ -1,49 +1,28 @@
 # Riot Games — Application
 
-## Positions
-
-| Role | Account | Status | Next Step | Notes |
-|---|---|---|---|---|
-| Principal Software Engineer | — | `Onsite` | Onsite Day 1 · **2026-05-21 11:00–15:30** · Day 2 · **2026-05-26 13:00–17:00** | — |
-
----
-
-## Active Position — Principal Software Engineer
+## Position
 
 | Field | Value |
 |---|---|
 | Role | Principal Software Engineer |
 | Team / Org | — |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Onsite` |
+| Status | `pending` |
+| Decision | — (onsite complete, awaiting final decision — Riot comparing other candidates) |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
-| 2026-04-28 10:00 | Recruiter call | Completed |
-| 2026-04-28 | Availabilities submitted | Awaiting interview scheduling |
-| 2026-05-08 | Round 1 changed to OA | Format simplified |
+| 2026-04-28 10:00 | Recruiter call | Passed |
+| 2026-05-08 | Round 1 changed to OA | Format simplified from live interview |
 | 2026-05-11 | OA completed | Passed |
-| 2026-05-14 10:30 | Round 2 Interview | Passed |
-| 2026-05-13 | Onsite availabilities submitted | Awaiting scheduling |
-| 2026-05-21 11:00–15:30 | Onsite Day 1 | Scheduled |
-| 2026-05-26 13:00–17:00 | Onsite Day 2 | Scheduled |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| Recruiter Call | 2026-04-28 | 10:00 | Phone | — | Passed | — |
-| Round 1 (OA) | 2026-05-11 | — | Online Assessment | — | Passed | Changed from live interview |
-| Round 2 | 2026-05-14 | 10:30 | — | — | Passed | — |
-| Onsite Day 1 | 2026-05-21 | 11:00–15:30 | Onsite | — | Pending | — |
-| Onsite Day 2 | 2026-05-26 | 13:00–17:00 | Onsite | — | Pending | — |
-
----
+| 2026-05-13 | Onsite availabilities submitted | — |
+| 2026-05-14 10:30 | Round 2 interview | Passed |
+| 2026-05-21 11:00–15:30 | Onsite — Day 1 | Completed (Broad Tech · Deep Tech · Eng Leadership) |
+| 2026-05-26 13:00–17:00 | Onsite — Day 2 | Completed (Player & Mission · Innovative · Communicate) |
+| 2026-06-21 | Awaiting decision | Riot comparing a few other candidates before the final call |
 
 ## Prep Checklist for This Role
 
@@ -108,8 +87,6 @@
 ### Company Research
 - [x] See [CLAUDE.md](CLAUDE.md) for Riot Games-specific notes
 - [x] 11 interview experiences logged in [interview-experiences.md](interview-experiences.md)
-
----
 
 ## Notes / Observations
 

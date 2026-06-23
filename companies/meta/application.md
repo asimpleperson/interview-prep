@@ -7,30 +7,20 @@
 | Role | Software Engineer, Infrastructure |
 | Team / Org | — |
 | Recruiter | — |
-| Recruiter Email | — |
-| Job Req ID | — |
 | Applied | — |
-| Status | `Rejected` |
+| Status | `rejected` |
+| Decision | Rejected via phone call 2026-05-13, after online assessment |
 
 ## Timeline
 
-| Date | Event | Notes |
+| Date | Event | Outcome / Notes |
 |---|---|---|
 | — | Applied | Software Engineer, Infrastructure |
-| — | Passed Resume Screening | Moved to recruiter conversation |
+| — | Passed resume screening | Moved to recruiter conversation |
 | 2026-04-30 | Follow-up email sent to recruiter | — |
-| 2026-05-06 | Online Assessment unlocked | Must complete by 2026-05-14 |
-| 2026-05-12 | Online Assessment completed | Awaiting result |
+| 2026-05-06 | Online assessment unlocked | Due by 2026-05-14 |
+| 2026-05-12 | Online assessment completed | Awaiting result |
 | 2026-05-13 | Rejected | Notified via phone call |
-
-## Interview Rounds
-
-| Round | Date | Time | Format | Interviewer | Result | Notes |
-|---|---|---|---|---|---|---|
-| Recruiter Call | — | — | Phone | — | Passed | — |
-| Online Assessment | 2026-05-12 | — | Async | — | Rejected | Rejected 2026-05-13 via phone |
-
----
 
 ## Prep Checklist for This Role
 
@@ -66,8 +56,6 @@ Meta uses the "Situation – Behavior – Impact" format.
 
 ### Company Research
 - [ ] See [CLAUDE.md](CLAUDE.md) for Meta-specific notes
-
----
 
 ## Notes / Observations
 
