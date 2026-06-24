@@ -35,10 +35,16 @@ Billing Platform role — expect metering/billing systems design on top of Snowf
 - [ ] Usage metering & event ingestion pipeline (high-volume, exactly-once / dedup)
 - [ ] Rating & pricing engine (usage → charges, tiered/volume pricing, plan changes)
 - [ ] Invoicing, credits/entitlements, proration, and currency handling
-- [ ] Idempotency, reconciliation, and financial-grade correctness/auditability
+- [x] Idempotency, reconciliation, and financial-grade correctness/auditability — *covered via quota-system mock (reservation idempotency, counter↔object-store reconciliation)*
 - [ ] Consistency & accuracy guarantees for money (ledgers, double-entry)
-- [ ] Multi-tenant isolation, resource governance, and reporting at scale
+- [x] Multi-tenant isolation, resource governance, and reporting at scale — *covered via quota-system mock (hierarchical quota, hot-key/whale isolation, escrow fragmentation)*
 - [ ] Snowflake fundamentals: storage/compute separation, micro-partitions, query execution
+
+**Mocked design questions (see `system-design/`):**
+| Date | Prompt | Write-up | Notes |
+|---|---|---|---|
+| 2026-06-23 | Usage quota system across services (100GB storage, high concurrency, low latency) | [design-quota-system.md](../../system-design/design-quota-system.md) | Escrow/lease vs hot-key; tiered consistency; bounded overshoot; reconciliation; 4 follow-ups answered |
+| 2026-06-23 | Store user passwords; identify bottlenecks | [design-password-storage.md](../../system-design/design-password-storage.md) | KDF CPU+RAM is THE bottleneck (by design); stuffing as DoS amplifier; pepper/KMS; passkeys; 4 follow-ups answered |
 
 ### Behavioral
 - [ ] Owning complex distributed systems under ambiguity
